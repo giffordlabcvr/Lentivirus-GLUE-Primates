@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KM212762</GBSeq_locus>
+    <GBSeq_length>2648</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>02-MAR-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-MAR-2016</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus isolate 5053N14 env gene, complete sequence</GBSeq_definition>
+    <GBSeq_primary-accession>KM212762</GBSeq_primary-accession>
+    <GBSeq_accession-version>KM212762.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KM212762.1|</GBSeqid>
+      <GBSeqid>gi|761985425</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2648</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yuan,Z.</GBAuthor>
+          <GBAuthor>Demers,A.</GBAuthor>
+          <GBAuthor>Ma,F.</GBAuthor>
+          <GBAuthor>Keele,B.</GBAuthor>
+          <GBAuthor>Li,Q.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Founder viruses determinant signatures at multiple tissue sites at early SIV rectal transmission</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2648</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Yuan,Z.</GBAuthor>
+          <GBAuthor>Demers,A.</GBAuthor>
+          <GBAuthor>Ma,F.</GBAuthor>
+          <GBAuthor>Keele,B.</GBAuthor>
+          <GBAuthor>Li,Q.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-JUL-2014) Biology, University of Nebraska-Lincoln, 4240 Fair Street, Lincoln, NE 68583, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2648</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2648</GBInterval_to>
+            <GBInterval_accession>KM212762.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>5053N14</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2648</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2648</GBInterval_to>
+            <GBInterval_accession>KM212762.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1..2648</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2648</GBInterval_to>
+            <GBInterval_accession>KM212762.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>nonfunctional envelope glycoprotein due to mutation; glycoprotein160; gp160</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggatgtcttgggaatcagctgcttatcgccatcttgcttttaagtgtctatgggatctattgtactcaatatgtcacagtcttttatggtgtaccagcttggaggaatgcgacaattcccctcttctgtgcaaccaagaatagggatacttggggaacaactcagtgcctaccagataatggtgattattcagaattggcccttaatgttacagaaagctttgatgcttgggagaatacagtcacagaacaggcaatagaggatgtatggcaactctttgagacctcaataaggccttgtgtaaaattatccccattatgcattactatgagatgcaataaaagtgagacagataaatggggattgacaaaatcatcaacaatagcagcaccaacatcagtaccaacatcagcaccaacatcagcaaaaatagacatggtcaatgagactagttcttgtataactcatgataattgcacaggcttggaacaagagcaaatgataggctgtaaattcaacatgacagggttaaaaagagacaagacaaaggagtacaatgaaacttggtactctacagatttggtttgtgaacaagggaatagcactgataatgaaagtagatgctacatgaatcactgtaacacttctattatccaagagtcttgtgacaagcattattgggatactattagatttaggtattgtgcacctccaggttatgctttgcttagatgtaatgacacaaattattcaggctttatgcctaaatgttctaaggtggtggtctcttcatgcacaaggatgatggagacacagacttctacttggtttggctttaatggaactagagcagaaaatagaacttatatttactggcatggtagggataataggactataattagtttaaataagtattataatctaacaatgaaatgtagaagaccaggaaataagacagttttgccagtcaccattatgtctggattggttttccactcacaaccagtcaatgataggccaaatcagcatggtgttggtttggaggaaattggaaggatgcaataaaagaggtgaagcagaccattgtcaaacatcccagatatactggaactaacaatactgataaaatcaatttgacggctcctagaggaggagatccggaagttaccttcatgtggacaaattgcaggggagagtttctctactgtaaaatgaattggtttctaaattgggtagaagatagggatctaactacccagaggccaaaggaacggcatagaaggaattacgtgccttgtcatattagacaaataatcaacacttggcataaagtaggcaaaaatgtttatttgcctccaagagagggagacctcacgtgtaactccacagtgaccagtctcatagcaaacatagattggactgatggaaaccaaactaatatcaccatgagtgcagaggtggcagaactgtatcgattggaattgggagattataaattagtagagatcactccaattggcttggcccccacagatgtgaagaggtacactactggtggcacctcaagaaataaaagaggggtctttgtgctagggttcttgggttttctcgcaacggcaggttctgcaatgggcgcggcgtcgttgacgctgaccgctcagtcccggactttattggctgggatagtgcagcaacagcaacagctgttggacgtggtcaagagacaacaagaattgttgcgactgaccgtctggggaacaaagaacctccagactagggtcactgccatcgagaagtacttaaaggaccaggcgcagctgaatgcttggggatgtgcgtttagacaagtctgccacactactgtaccatggccaaatgcaactctaacaccaaattggaacaatgagacttggcaagagtgggagcgaagggttgacttcttggaggaaaatataacagccctcctagaagagacacaaattcaacaagagaagaacatgtatgaattacaaaagttaaatagctgggatgtgtttggcaattggtttgaccttgcttcttggataaagtatatacaatatggagtttatatagttgtaggagtaatactgttaagaatagtgatctatatagtacaaatgctagctaagttaaaggcggggtataggccagtgttctcttccccaccctcttatttccagcagacccatatccaacaggacccggcactgccaaccagagaaggcaaagaaggagacggtggagaaagcggtggcaacagctcctggccttggcagatagaatatattcatttcctgatccgccaactgatacgcctcttgacttggctattcagcaactgcagaaccttgctatcgagagtataccagatcctccaaccaatactccagaggctctctgcgaccctacagagaattcgagaagtcctcaggactgaactgacctacctacaatatgggtggagctatttccaggaggcggtccaagccggctggagatctgcgacagagactcttgcgggcgcgtggggagacttatgggagactcttgggagaggtggaagatggatcctcgcaatccctaggaggattagacaagggctcgagctcactctcctgtga</GBSeq_sequence>
+  </GBSeq>

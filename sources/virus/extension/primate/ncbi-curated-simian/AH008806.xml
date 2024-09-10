@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AH008806</GBSeq_locus>
+    <GBSeq_length>1604</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-JUN-2016</GBSeq_update-date>
+    <GBSeq_create-date>17-DEC-1999</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus pol polyprotein precursor (pol) and envelope glycoprotein (env) genes, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AH008806</GBSeq_primary-accession>
+    <GBSeq_accession-version>AH008806.2</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AH008806.2|</GBSeqid>
+      <GBSeqid>gi|1036030667</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>AF115394</GBSecondary-accn>
+      <GBSecondary-accn>AF115395</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1604</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Corbet,S.</GBAuthor>
+          <GBAuthor>Muller-Trutwin,M.C.</GBAuthor>
+          <GBAuthor>Versmisse,P.</GBAuthor>
+          <GBAuthor>Delarue,S.</GBAuthor>
+          <GBAuthor>Ayouba,A.</GBAuthor>
+          <GBAuthor>Lewis,J.</GBAuthor>
+          <GBAuthor>Brunak,S.</GBAuthor>
+          <GBAuthor>Martin,P.</GBAuthor>
+          <GBAuthor>Brun-Vezinet,F.</GBAuthor>
+          <GBAuthor>Simon,F.</GBAuthor>
+          <GBAuthor>Barre-Sinoussi,F.</GBAuthor>
+          <GBAuthor>Mauclere,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>env sequences of simian immunodeficiency viruses from chimpanzees in Cameroon are strongly related to those of human immunodeficiency virus group N from the same geographic area</GBReference_title>
+        <GBReference_journal>J. Virol. 74 (1), 529-534 (2000)</GBReference_journal>
+        <GBReference_pubmed>10590144</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1604</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Corbet,S.</GBAuthor>
+          <GBAuthor>Muller-Trutwin,M.C.</GBAuthor>
+          <GBAuthor>Versmisse,P.</GBAuthor>
+          <GBAuthor>Delarue,S.</GBAuthor>
+          <GBAuthor>Ayouba,A.</GBAuthor>
+          <GBAuthor>Lewis,J.</GBAuthor>
+          <GBAuthor>Brunak,S.</GBAuthor>
+          <GBAuthor>Martin,P.</GBAuthor>
+          <GBAuthor>Brun-Vezinet,F.</GBAuthor>
+          <GBAuthor>Simon,F.</GBAuthor>
+          <GBAuthor>Barre-Sinoussi,F.</GBAuthor>
+          <GBAuthor>Mauclere,P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (18-DEC-1998) Virologie-Unite de Biologie des Retrovirus, Institut Pasteur, 25 rue du Dr Roux, Paris 75015, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On or before Jun 10, 2016 this sequence version replaced AF115394.1, AF115395.1, AH008806.1.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1604</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1604</GBInterval_to>
+            <GBInterval_accession>AH008806.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cameroon</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from a chimpanzee (Cam4) wild caught in Cameroon</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;178</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>178</GBInterval_to>
+            <GBInterval_accession>AH008806.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;178</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>178</GBInterval_to>
+            <GBInterval_accession>AH008806.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>pol polyprotein precursor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAF18582.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>FKTAVQMAVFIHNFKRKGGIGGYTAGERIIDIIATDIQTTNLQKQILKVQNFPVYYRDS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>179..278</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>179</GBInterval_from>
+            <GBInterval_to>278</GBInterval_to>
+            <GBInterval_accession>AH008806.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>unknown</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;279..&gt;1604</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>279</GBInterval_from>
+            <GBInterval_to>1604</GBInterval_to>
+            <GBInterval_accession>AH008806.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>contains C-terminal region of gp120 and N-terminal region of gp41</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;279..1015</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>279</GBInterval_from>
+            <GBInterval_to>1015</GBInterval_to>
+            <GBInterval_accession>AH008806.2</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>premature stop codon</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAF18583.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>KCNMPNFNGTGRCNNISTVQCTHGIRPVVTTQLILNGSLAENKTIARWKGKGYNFLIQFQKAVSINCTRPGNNSRGQIQIGPGMSFYNIENIVGDTRRAYCQINRTVWEERLNETGQALRELFTNLTQVSFTVNPGGDPEVTNMMFNCGGEFFYCNTTTLFNNYKWENNNITNEGDNTTVFLCRIRQIVNSWMRVGKGIYAPPIRGVISCTLNVTGLILESRHXLAXTTINITLYPTGGNMVDL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tttaagacagcagtacaaatggcagtgttcattcacaattttaaaagaaaaggggggattggggggtacactgcaggagaaagaattatagacatcatagcaacagacatacaaacaactaatctacaaaaacaaattttaaaagttcaaaattttccggtttattacagggacagcannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnntgaaatgcaatatgccaaactttaatggaacaggaagatgtaacaatataagcacagtacaatgtacccatggcatcagaccagtggtaactacacaattgatccttaatggaagtctagctgaaaacaagactattgctagatggaaagggaaagggtacaacttcctgatacaatttcagaaagcggtcagcataaattgtacaagaccaggaaataacagcagaggacaaatacagataggaccaggcatgtccttttataacatagaaaatattgtaggagataccagacgagcatattgtcagatcaataggacagtctgggaagaaagactaaatgaaactggtcaagccctgcgagagctttttacaaaccttacacaagtcagctttacagtaaatccaggaggagacccagaagtgacaaatatgatgtttaattgtggaggagaattcttttattgcaatactactacattgttcaataattataagtgggaaaacaacaatataacaaatgagggagataacaccaccgtcttcctatgtagaataaggcaaattgtaaactcctggatgagagtgggaaagggaatttatgccccaccaattagaggagttataagctgcacattaaacgttactgggcttatacttgagtcaaggcatncccttgccnttaccaccatcaacatcacgctataccctacaggaggaaacatggtagacttgtgaaggcttgaattgcataaatacaaagtagtgagcatagaacccataggagtagcaccaagtaaagctaaaaggcacacagtatcaagagaaaaaagagcagcctttggactgggtgcgctgtttcttgggttcctaggagcagcaggaagcactatgggcgcagcatcagtggtgctgacggtacaggcccggcaattattgtcagggatagtgcaacagcagaacaacctgctgcgagcaatagaggcgcaacaacatttgttgcaactctcagtttggggcattaaacagctccaagcaagagttcttgctgtagaaagatacctcagagatcagcaaatcctaggcctatggggctgctcaggaaaagccatctgttatactactgtgccttggaataatacttggagtgctaatacatcctttgatgagatctggaataatttaacatggcaagactgggacaaaagggtaaaaaattattcaggtgtcatttttagccttatagaacaagcacaggagcaacaaaacacaaatgagaaaagtctattggaattggatcaatgggcaagtttatggaattggtttg</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>X86732</GBSeq_locus>
+    <GBSeq_length>1038</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>26-MAY-1995</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus partial env &amp; nef genes (week49)</GBSeq_definition>
+    <GBSeq_primary-accession>X86732</GBSeq_primary-accession>
+    <GBSeq_accession-version>X86732.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|X86732.1|</GBSeqid>
+      <GBSeqid>gi|950083</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>ENV/NEF gene</GBKeyword>
+      <GBKeyword>LTR</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1038</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Whatmore,A.M.</GBAuthor>
+          <GBAuthor>Cook,N.</GBAuthor>
+          <GBAuthor>Hall,G.A.</GBAuthor>
+          <GBAuthor>Sharpe,S.</GBAuthor>
+          <GBAuthor>Rud,E.W.</GBAuthor>
+          <GBAuthor>Cranage,M.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Repair and evolution of nef in vivo modulates simian immunodeficiency virus virulence</GBReference_title>
+        <GBReference_journal>J. Virol. 69 (8), 5117-5123 (1995)</GBReference_journal>
+        <GBReference_pubmed>7609080</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1038</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Whatmore,A.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-APR-1995) A.M. Whatmore, Centre for applied Microbiology &amp;Researh, viral Pathogenesis Group, Porton Down, Salisbury, Wiltshire SP4 0JG, UK</GBReference_journal>
+        <GBReference_remark>revised by [3]  MAT</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..1038</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Whatmore,A.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-AUG-1995) A.M. Whatmore, Centre for applied Microbiology &amp;Researh, viral Pathogenesis Group, Porton Down, Salisbury, Wiltshire SP4 0JG, UK</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>On Aug 19, 1995 this sequence version replaced gi:840896.; Overlaps with D01065.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1038</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1038</GBInterval_to>
+            <GBInterval_accession>X86732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>macC8</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>dev_stage</GBQualifier_name>
+            <GBQualifier_value>week 49</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lab_host</GBQualifier_name>
+            <GBQualifier_value>Rhesus monkey 29R</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>evolution of virus sequence over time</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1038</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1038</GBInterval_to>
+            <GBInterval_accession>X86732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ENV/NEF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>repeat_region</GBFeature_key>
+        <GBFeature_location>1..1038</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1038</GBInterval_to>
+            <GBInterval_accession>X86732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ENV/NEF</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>rpt_type</GBQualifier_name>
+            <GBQualifier_value>long_terminal_repeat</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..722</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>722</GBInterval_to>
+            <GBInterval_accession>X86732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NEF</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..722</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>722</GBInterval_to>
+            <GBInterval_accession>X86732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>NEF</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA60411.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q87951</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001558</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q87951</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>GETYGRLLGEVEDGYSQSLGGLDKGLSSLSCEGQKYNQGQYMNTPWRNPAEEREKLAYRKQNMDDVDEEDDDLVGEPVMPRVPLRTMSYKLAVDMSHFIKEKGGLEGIYYSARRHRIIDRILEKEEGIIPDWQDYTSGPGIRYPKTFGWLWKLVPVNVSDEAQEDEKHYLMQPAQTSKWDDPWGEVLAWKFDPTLAYTYEAYVRYPEEFGSKSGLPEEEVRRRLAARGLLNMADKKETR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..97</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>97</GBInterval_to>
+            <GBInterval_accession>X86732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ENV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..97</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>97</GBInterval_to>
+            <GBInterval_accession>X86732.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ENV</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA60410.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q87950</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>WGDLWETLRRGGRWILAIPRRIRQGLELTLL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gtggggagacttatgggagactcttaggagaggtggaagatggatactcgcaatccctaggaggattagacaagggcttgagctcactctcttgtgagggacagaaatacaatcaggggcagtatatgaatactccatggagaaacccagctgaagagagagaaaaattagcatacagaaaacaaaatatggatgatgtagatgaggaagatgatgacttggtaggggaaccagtgatgccacgagttcccctaagaacaatgagttacaaattggcagtagatatgtctcattttataaaagaaaaggggggactggaagggatttattacagtgcaagaagacatagaatcatagatagaatcttagaaaaggaggaaggcatcataccagattggcaggattacacctcaggaccaggaattagatacccaaagacatttggctggctatggaaattagtccccgtaaatgtatcagatgaggcacaggaggatgagaagcattatttaatgcagccagctcaaacttccaagtgggatgacccttggggagaggttctagcatggaagtttgatccaactctagcctacacttatgaggcatatgttagatacccagaagagtttggaagcaagtcaggcctgccagaggaagaggttagaagaagactagccgcaagaggccttcttaacatggctgacaagaaggaaactcgctgagacagcagggactttccacaaggggatgttacggggaggtactggggaggagccggtcgggaacgcccactctcttgatgtataaatatcactgcatttcgctctgtattcagtcgctctgcggagaggctggcagattgagccctgggaggttctctccagcactagcaggtagagcctgggtgttccttgctagactctcaccagcacttggccggtgctgggcagagtggctccacgcttgcttgcttaaagacctcttcaataaagctgccattttagaagtaagctagtgtgtgttcccatctctcctagt</GBSeq_sequence>
+  </GBSeq>

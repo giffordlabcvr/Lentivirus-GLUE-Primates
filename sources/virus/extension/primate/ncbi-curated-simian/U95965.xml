@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>SIU95965</GBSeq_locus>
+    <GBSeq_length>1521</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-SEP-1997</GBSeq_update-date>
+    <GBSeq_create-date>26-SEP-1997</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus Gag polyprotein (gag) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>U95965</GBSeq_primary-accession>
+    <GBSeq_accession-version>U95965.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U95965.1|SIU95965</GBSeqid>
+      <GBSeqid>gi|2439991</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1521</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kimata,J.T.</GBAuthor>
+          <GBAuthor>Overbaugh,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>The cytopathicity of a simian immunodeficiency virus Mne variant is determined by mutations in Gag and Env</GBReference_title>
+        <GBReference_journal>J. Virol. 71 (10), 7629-7639 (1997)</GBReference_journal>
+        <GBReference_pubmed>9311845</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1521</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kimata,J.T.</GBAuthor>
+          <GBAuthor>Overbaugh,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (31-MAR-1997) Microbiology, University of Washington, Box 357242, Seattle, WA 98155-7242, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1521</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1521</GBInterval_to>
+            <GBInterval_accession>U95965.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>SIVMne170</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>cloned from peripheral blood mononuclear cells obtained from a SIVMneCL8 infected Macaca nemestrina</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1521</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1521</GBInterval_to>
+            <GBInterval_accession>U95965.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1521</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1521</GBInterval_to>
+            <GBInterval_accession>U95965.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>core proteins of SIV</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>Gag polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAC58444.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGARNSVLSGKKADELEKIRLRPGGKKKYMLKHVVWAANELDRFGLAESLLENKEGCQKIISVLAPLVPTGSENLKSLYNTVCVIWCIHAEEKVKHTEEAKQIVQRHLVVETGTAATMPKTSRPTAPSSGRGGNYPVQQIGGNYTHLPLSPRTLNAWVKLIEEKKFGAEVVPGFQALSEGCTPYDINQMLNCVGEHQAAMQIIREIINEEAADWDLQHPQQAPQQGQLREPSGSDIAGTTSTVDEQIQWMYRQQNPIPIGNIYRRWIQLGLQKCVRMYNPTNILDVKQGPKEPFQSYVDRFYKSLRAEQTDPAVKNWMTQTLLIQNANPDCKLVLKGLGMNPTLEEMLTACQGVGGPGQKARLMAEALKEALAPGPLPFAAAQQKGPRKPVKCWNCGKEGHSARQCRAPRRQGCWKCGQMGHVMAKCPDRQAGFLGFGPWGKKPRNFPMAQMHQGLTPTAPPEDPAVDLLKNYMQLGKQQRESKRKPYKEVTEDLLHLNSLFGGDQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggcgcgagaaactccgtcttgtcagggaagaaagcagatgaattagaaaaaattaggctacgacccggcggaaagaaaaagtacatgttgaagcatgtagtatgggcagcaaatgaattagatagatttggattagcagaaagcctgttggagaacaaagaaggatgtcaaaaaataatttcggtcttagctccattagtgccaacaggctcagaaaatttaaagagcctttataatactgtctgcgtcatctggtgcattcacgcagaagagaaagtgaaacacactgaggaagcaaaacagatagtgcagagacacctagtggtggaaacaggaacagcagcaactatgccaaaaacaagtagaccaacagcaccatctagtggcagaggaggaaattacccagtacaacaaataggtggtaactatacccacctaccattaagcccgagaacattaaatgcctgggtaaaattgatagaggaaaagaaatttggagcagaagtagtgccaggatttcaggcactgtcagaaggctgcaccccctatgacattaatcagatgttaaattgtgtgggagaacatcaagcagctatgcagattatcagagaaattataaacgaggaggctgcagattgggacttgcagcacccacaacaagctccacaacaaggacagcttagggagccgtcaggatcagacattgcaggaacaactagtacagtagatgaacaaatccagtggatgtacagacaacagaaccccataccaataggcaacatttacaggagatggatccaactggggttgcaaaaatgtgtcagaatgtataacccaacaaacattctagatgtaaaacaagggccaaaagagccatttcagagctatgtagacaggttctacaaaagcttaagagcagaacaaacagatccagcagtaaagaattggatgactcaaacactgctgattcaaaatgctaacccagattgcaagctagtgctgaaggggctgggtatgaatcccaccctagaagaaatgctgacggcttgtcaaggagtaggaggaccaggacaaaaggcaagattaatggcagaagccctgaaagaggcccttgcaccagggccactcccttttgcagcagcccaacagaagggaccaagaaagccagttaagtgttggaattgtgggaaagagggacactctgcaaggcaatgcagagccccaagaagacagggctgctggaaatgtggacaaatgggccatgttatggccaaatgcccagacagacaggcaggttttttaggctttggcccatggggaaagaagccccgcaatttccccatggcccaaatgcatcaggggctgacgccaactgctcccccagaggacccagctgtggatctgctaaaaaactacatgcagttgggcaaacagcagagagaaagcaaaaggaagccttacaaggaggtgacagaggatttgctgcacctcaattctctctttggaggagaccagtag</GBSeq_sequence>
+  </GBSeq>

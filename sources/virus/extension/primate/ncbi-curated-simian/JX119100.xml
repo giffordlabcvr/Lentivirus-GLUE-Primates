@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JX119100</GBSeq_locus>
+    <GBSeq_length>1127</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-MAR-2013</GBSeq_update-date>
+    <GBSeq_create-date>19-AUG-2012</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus isolate SIVE660B211 gag protein (gag) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>JX119100</GBSeq_primary-accession>
+    <GBSeq_accession-version>JX119100.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|JX119100.1|</GBSeqid>
+      <GBSeqid>gi|400530119</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1127</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mattiuzzo,G.</GBAuthor>
+          <GBAuthor>Rose,N.J.</GBAuthor>
+          <GBAuthor>Almond,N.</GBAuthor>
+          <GBAuthor>Towers,G.J.</GBAuthor>
+          <GBAuthor>Berry,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Upregulation of TRIM5alpha gene expression after live-attenuated simian immunodeficiency virus vaccination in Mauritian cynomolgus macaques, but TRIM5alpha genotype has no impact on virus acquisition or vaccination outcome</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 94 (PT 3), 606-611 (2013)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.047795-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>23152371</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1127</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Mattiuzzo,G.</GBAuthor>
+          <GBAuthor>Berry,N.</GBAuthor>
+          <GBAuthor>Almond,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-MAY-2012) Retrovirology, NIBSC-HPA, Blanche Lane, South Mimms-Potter Bar, Hertfordshire WD24 4GL, United Kingdom</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1127</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1127</GBInterval_to>
+            <GBInterval_accession>JX119100.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>SIVE660B211</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Macaca fascicularis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>United Kingdom</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..&gt;1127</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1127</GBInterval_to>
+            <GBInterval_accession>JX119100.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..&gt;1127</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1127</GBInterval_to>
+            <GBInterval_accession>JX119100.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AFP86293.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGARNSVLSGKKADELEKIRLRPNGKKKYMLKHVVWAANELDRFGLAESLLDNKEGCQKILSVLAPLVPTGSENLKSLYNTVCVIWCIHAEEKVKHTEEAKQIVQRHLVVETGTADRMPATSRPTAPPSGRGGNYPVQQVGGNYVHLPLSPRTLNAWVKLVEEKKFGAEVVPGFQALSEGCTPYDINQMLNCVGEHQAAMQIIREIINEEAADWDLQHPPPGPLPAGQLREPRGSDIAGTTSTVDEQIQWMYRQQNPIPVGNIYRRWIQLGLQKCVRMYNPTNILDVKQGPKEPFQSYVDRFYKSLRAEQTDPAVKNWMTQTLLIQNANPDCKLVLKGLGMNPTLEEMLTACQGIGGPGQKARLMAEALKEALRPV</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggcgcgagaaactccgtcttgtcagggaagaaagcagatgaattagaaaaaattaggttacgacccaacggaaagaaaaagtatatgttgaagcatgtagtatgggcagcaaatgaattggacagatttggattagcagaaagcctgttggataacaaagaaggttgtcaaaaaattctttcggttttagctccattagttccgacaggttcagaaaatttaaagagcctttataatactgtctgcgtcatttggtgcattcacgcagaagagaaagtgaaacatactgaggaagcaaaacaaatagtgcagagacatctagtggtggaaacaggaacagcagatagaatgccagcaacaagcagaccaacagcaccacctagtggcagaggaggaaattacccagtgcagcaagtaggtggcaattatgtccacctacccttaagtccaagaacattaaatgcttgggtaaaattagtagaagagaaaaaatttggggcagaggtagtgccaggatttcaagcgctatcagaaggctgcactccctatgatatcaatcaaatgctaaattgtgtaggagaacatcaggcagccatgcaaattattagagagattataaatgaagaagctgccgattgggatttacaacacccaccgccaggtccactaccagcagggcaacttagagagccaagaggatcagacattgcaggaactactagtacagtagatgaacaaatccaatggatgtacaggcaacaaaaccccataccagtaggcaacatttatagaaggtggatccaattagggctgcagaaatgtgtaagaatgtataacccaacaaacattttagatgtgaaacaaggaccaaaagagccatttcaaagctacgtagatagattctacaaaagtctaagagcagagcaaacagatccggcagtaaagaattggatgacccaaacactgctgattcaaaatgctaacccagattgtaaattggtgctcaagggtctgggtatgaatcccactttagaagaaatgctgacagcctgtcagggaataggagggccaggacaaaaagctagattaatggcagaagcattgaaagaggcactgagaccggt</GBSeq_sequence>
+  </GBSeq>

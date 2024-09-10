@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KF598258</GBSeq_locus>
+    <GBSeq_length>2627</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>16-SEP-2013</GBSeq_update-date>
+    <GBSeq_create-date>16-SEP-2013</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus isolate IR44.wk6Plasma.p3g23 from USA pol protein (pol) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KF598258</GBSeq_primary-accession>
+    <GBSeq_accession-version>KF598258.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KF598258.1|</GBSeqid>
+      <GBSeqid>gi|542119342</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2627</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hsu,M.</GBAuthor>
+          <GBAuthor>Keele,B.F.</GBAuthor>
+          <GBAuthor>Robbiani,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Exposure to MIV-150 from a high-dose intravaginal ring results in limited selection of drug resistance mutations in SHIV-RT infected rhesus macaques</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2627</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hsu,M.</GBAuthor>
+          <GBAuthor>Keele,B.F.</GBAuthor>
+          <GBAuthor>Robbiani,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (28-AUG-2013) AIDS and Cancer Virus Program, Frederick National Laboratory, 1050 Boyles Street, Frederick, MD 21702, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Sequencher v. 5.1 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2627</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2627</GBInterval_to>
+            <GBInterval_accession>KF598258.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>RT-SHIV</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>IR44.wk6Plasma.p3g23</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>rhesus macaque</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-Sep-2011</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;2627</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2627</GBInterval_to>
+            <GBInterval_accession>KF598258.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;2627</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2627</GBInterval_to>
+            <GBInterval_accession>KF598258.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>pol protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AGV33996.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>QAAERQAERKQREALQGGDRGFAAPQFSLWRRPVVTAHIEGQPVEVLLDTGADDSIVTGIELGPHYTPKIVGGIGGFINTKEYKNVEIEVLGKRIKGTIMTGDTPINIFGRNLLTALGMSLNFPISPIETVPVKLKPGMDGPKVKQWPLTEEKIKALVEICTEMEKEGKISKIGPENPYNTPVFAIKKKDSTKWRKLLDFRELNKRTQDFWEVQLGIPHPAGLKKKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFREQNQDIVIYQYMDDLYIGSDLEIGQHRTKIEKLRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLVGKLNWASQIYPGIKVKQLCKLLRGTKALTEVIPLTEEAELELAENREILKEPVHGVYYDPSKDLIAEIQKQGQGQWTYQIYQEPFKNLKTGKYARRRGAHTNDIKQLTEAVQKITTESIVVWGKTPKFKLPIQKETWETWWTEYWQATWIPEWEFVNTPPLVKLWYQLEKEPIVGAETFYVDGAANRETKLGKAGYVTDRGRQKVVTLTDTTNQKTELQAIYLALQDSGLEVNIVTDSQYALGIIQAQPDQSESELVNQIIEQLIKKEKVYLAWVPAHKGIGGNEQVDKLVSAGIRKVLFLEKIEPAQEEHDKYHSNVKELVFKFGLPRIVARQIVDTCGKCHQKGEAIHGQVNSDLGTWQMDCTHLEGKIIIVAVHVASGFIEAEVIPQETGRQTALFLLKLAGRWPVTHLHTDNGANFASQEVKMVAWWAGIEHTFGVPYNPQSQGVVEAMNHHLKNQIDRIREQANSVETIVLMAVHCMNFKRRGGIG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcaagcagcagagagacaagcagagagaaagcagagagaagccttacaaggaggtgacagaggatttgctgcacctcaattctctctttggaggagaccagtagtcactgctcatattgaaggacagcctgtagaagtattactggatacaggggctgatgattctattgtaacaggaatagagttaggtccacattataccccaaaaatagtaggaggaataggaggttttattaatactaaagaatacaaaaatgtagaaatagaagttttaggcaaaagaattaaagggacaatcatgacaggggacaccccgattaacatttttggtagaaatttgctaacagctctggggatgtctctaaattttcccattagccctattgagactgtaccagtaaaattaaagccaggaatggatggcccaaaagttaaacaatggccattgacagaagaaaaaataaaagcattagtagaaatttgtacagagatggaaaaggaagggaaaatttcaaaaattgggcctgaaaatccatacaatactccagtatttgccataaagaaaaaagacagtactaaatggagaaaattactagatttcagagaacttaataagagaactcaagacttctgggaagttcaattaggaataccacatcccgcagggttaaaaaagaaaaaatcagtaacagtactggatgtgggtgatgcatatttttcagttcccttagatgaagacttcaggaaatatactgcatttaccatacctagtataaacaatgagacaccagggattagatatcagtacaatgtgcttccacagggatggaaaggatcaccagcaatattccaaagtagcatgacaaaaatcttagagccttttagagaacaaaatcaagacatagttatctatcaatacatggatgatttgtatataggatctgacttagaaatagggcagcatagaacaaaaatagagaagctgagacaacatctgttaaggtggggacttaccacaccagacaaaaaacatcagaaagaacctccattcctttggatgggttatgaactccatcctgataaatggacagtacagcctatagtgctgccagaaaaagacagctggactgtcaatgacatacagaagttagtggggaaattgaattgggcaagtcagatttacccagggattaaagtaaagcaattatgtaaactccttagaggaaccaaagcactgacagaagtaataccactaacagaagaagcagagctagaactggcagaaaacagagagattctaaaagaaccagtacatggagtgtattatgacccatcaaaagacttaatagcagaaatacagaagcaggggcaaggccaatggacatatcaaatttatcaagagccatttaaaaatctgaaaacaggaaaatatgcaagaaggaggggtgcccacactaatgatataaaacaattaacagaggcagtgcaaaaaataaccacagaaagcatagtagtatggggaaagactcctaaatttaaactgcccatacaaaaggaaacatgggaaacatggtggacagagtattggcaagccacctggattcctgagtgggagtttgtcaatacccctcctttagtgaaattatggtaccagttagagaaggaacccatagtaggagcagaaaccttctatgtagatggggcagctaacagggagactaaattaggaaaagcaggatatgttactgatagaggaagacaaaaggttgtcaccctaactgacacaacaaatcagaagactgagttacaagcaatttatctagctttgcaagattcgggattagaagtaaacatagtaacagactcacaatatgcattaggaatcattcaagcacaaccagatcaaagtgaatcagaattagtcaatcaaataatagagcagttaataaaaaaggaaaaggtctatctggcatgggtaccagcacacaaaggaattggaggaaatgaacaagtagataaattagtcagtgctgggattagaaaagttctcttcttggaaaagatagagccagcacaagaagaacatgataaataccatagtaatgtaaaagaattggtattcaaatttggattacccagaatagtggccagacagatagtagacacctgtggtaaatgtcatcagaaaggagaggctatacatgggcaggtaaattcagatctagggacttggcaaatggattgtacccatctagagggaaaaataatcatagttgcagtacatgtagctagtggattcatagaagcagaggtaattccacaagagacaggaagacagacagcactatttctgttaaaattggcaggcagatggcctgttacacatctacacacagataatggtgctaactttgcttcgcaagaagtaaagatggttgcatggtgggcagggatagagcacacctttggggtaccatacaatccacagagtcagggagtagtggaagcaatgaatcaccacctgaaaaatcaaatagatagaatcagggaacaagcaaattcagtagaaaccatagtattaatggcagtccattgcatgaattttaaaagaaggggaggaatagggg</GBSeq_sequence>
+  </GBSeq>

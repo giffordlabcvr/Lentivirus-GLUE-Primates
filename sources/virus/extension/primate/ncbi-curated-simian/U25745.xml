@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>SIU25745</GBSeq_locus>
+    <GBSeq_length>1113</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-JAN-1999</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus, isolate F4 (env) gene, V2-gp41 junction, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>U25745</GBSeq_primary-accession>
+    <GBSeq_accession-version>U25745.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U25745.1|SIU25745</GBSeqid>
+      <GBSeqid>gi|4096160</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1113</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Soares,M.A.</GBAuthor>
+          <GBAuthor>Jin,M.J.</GBAuthor>
+          <GBAuthor>Yue,L.</GBAuthor>
+          <GBAuthor>Smit,T.K.</GBAuthor>
+          <GBAuthor>Schoub,B.D.</GBAuthor>
+          <GBAuthor>Allan,J.S.</GBAuthor>
+          <GBAuthor>Sharp,P.M.</GBAuthor>
+          <GBAuthor>Hahn,B.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Antiquity of SIV Infection in African Green Monkeys</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1113</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Soares,M.A.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-APR-1995) Marcelo A. Soares, Medicine, Univ. Alab. Birming., 701 19th St. South, Birmingham, AL 35294 USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1113</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1113</GBInterval_to>
+            <GBInterval_accession>U25745.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>SIVAGMF4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>F4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1113</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1113</GBInterval_to>
+            <GBInterval_accession>U25745.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1113</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1113</GBInterval_to>
+            <GBInterval_accession>U25745.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>V2-gp41 junction</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAC99812.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>ELRLRYCAPAGYALLKCNDYDYNGYKQNCSNVSVVHCTGLMNTTVSTGLLLNGSYAENRTQIWQKHRVNNDSVIILFNKHYNLTVTCRRPGNKTVLPVTIMAGLVFHSQKYNTRLRQAWCHFQGNWRGAWKEVRQKIVELPKDRYRGTNQTEQIFLQRQWGDPEAANLWFNCQGEFFYCKMDWFLNYLNNLSVDADHNPCPKKSRQPGPCVQRTYVACHIRSVIDDWYTISKKTYAPPREGHLQCTSTVTGMTVELNYNSDNRTNVTLSPQIEGIWAAELGRYKLVEITPIGFAPTDVRRYEGPSRQKRVPFVLGFLGFLGAAGTAMGAAATALTVQSQHLLAGILQQQKNLLAAVEQQQQMLKLTIWGVK</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gagttaaggctcagatactgtgctccagcagggtatgctttgctaaaatgtaatgattatgattataatggctataaacaaaactgctctaatgtttcagtagtacactgtacagggcttatgaatacaacagttagcacaggtttattactcaatggaagctatgcagaaaataggacacaaatttggcagaaacatagggtgaacaacgactcagtaataatcttgtttaacaagcactacaatctgacagtaacatgtaggagaccaggaaataaaacagtactgccagtgacaattatggcagggttagtgttccattctcagaaatataatacaaggcttagacaagcatggtgtcatttccaaggcaattggagaggagcttggaaagaggtaaggcaaaaaatagtagaattaccaaaagataggtataggggaacaaaccaaacagaacagattttcttgcaaaggcaatggggagatcctgaagcagctaatttgtggtttaattgccagggagaatttttctattgtaagatggattggttcttaaactatctcaacaatctgtcggtcgatgcagatcataatccatgtcccaagaaatcaaggcaaccaggaccttgtgtacaaagaacatatgttgcctgccatatcagatctgtcatagacgattggtatacgatcagcaaaaagacctatgccccaccaagagaagggcacctacaatgcacttccacggtgactggtatgacagtagaactaaattataacagcgacaatagaaccaatgtgactctaagcccacaaatagagggaatatgggcggctgaattaggacggtataaattggtagagattacaccaattggattcgcaccaacggatgtaaggcgctatgagggtccctcaagacaaaaaagggtacccttcgtgctagggttcctaggcttcttgggagcagctggaactgcaatgggagcagcggcgacagccctgacggtccagtcccagcatttacttgcagggattttgcagcagcagaagaatctgctggcggctgtggagcagcagcaacagatgttgaagctgaccatttggggtgtaaaa</GBSeq_sequence>
+  </GBSeq>

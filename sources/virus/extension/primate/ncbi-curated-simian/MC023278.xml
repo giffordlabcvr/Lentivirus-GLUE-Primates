@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MC023278</GBSeq_locus>
+    <GBSeq_length>1038</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>31-JUL-2020</GBSeq_update-date>
+    <GBSeq_create-date>31-JUL-2020</GBSeq_create-date>
+    <GBSeq_definition>JP 2018531022-A/4: Methods for Generating Engineered Human Primary Blood Dendritic Cell Lines</GBSeq_definition>
+    <GBSeq_primary-accession>MC023278</GBSeq_primary-accession>
+    <GBSeq_accession-version>MC023278.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|MC023278.1|</GBSeqid>
+      <GBSeqid>pat|JP|2018531022|4</GBSeqid>
+      <GBSeqid>gi|1884969187</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2018531022-A/4</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Human T-cell lymphotropic virus type 4</GBSeq_source>
+    <GBSeq_organism>Human T-cell lymphotropic virus type 4</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1038</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cheng,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Methods for Generating Engineered Human Primary Blood Dendritic Cell Lines</GBReference_title>
+        <GBReference_journal>JP2018531022-A 4 25-OCT-2018 University of Maryland Baltimore</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS HTLV-4~PN JP 2018531022-A/4~PD 25-OCT-2018~PF 19-OCT-2016 JP 2018520135~PR 19-OCT-2015 US 62/243177~PA University of Maryland Baltimore~PI hua cheng~PT 'Methods for Generating Engineered Human Primary Blood~PT Dendritic Cell~PT Lines'~PS N8~CC~FH Key Location/Qualifiers.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1038</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1038</GBInterval_to>
+            <GBInterval_accession>MC023278.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Human T-cell lymphotropic virus type 4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11725</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggcccacttcccaggattcgggcagagcctcctctatggataccccgtctatgtgtttggcgattgtgttcaagccgattggtgccccatctccggtggattatgctccccccgcctacatcgccacgccctcctggccacctgccccgagcaccagatcacctgggaccccatcgatggacgagttgtcggctcgcctctccaataccttatccctcgcctcccctccttccccacccaacgaacctccaagaccctcaaagtccttaccccaccaaccactcctgtcacccccaaggttccaccctccttctttcagtccgtgcggaggcacagcccctaccgcaacggatgtcttgaaacaacccttggagagcagctcccctcccttgcatttcctgagccaggcctcaggccccaaaacgtctacaccatctggggaaagaccatagtgtgtctatacatctaccagctgtcccctcccatgacctggcccctcattccccatgtcatattttgcaaccccaggcagcttggcgcttttctaagcaatgtgccccccaagcgattagaagaactcctctacaaactttatctacacaccggcgccataatcatcctgccggaagacgccctgcctaccaccctatttcagcctgttcgagcaccctgtgtccaaactacctggaacacaggacttctcccataccagccaaacctgactacccctggcctgatatggacctttaatgatgggtctcctatgatttcaggaccttgccctaaggcagggcagccatccttggtagtacagtcctcactactaatcttcgagagatttcaaaccaaagcctatcatccctcttacctcctctcccaccaattgatacagtattcctccttccatcacctctacttactctttgatgaatatactactatccccttctctctactatttaaggaaaaagagggagatgacagggacaacgaccctctcccaggggcgacagcaagcccccaaggacaaaactag</GBSeq_sequence>
+  </GBSeq>

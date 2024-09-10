@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ310481</GBSeq_locus>
+    <GBSeq_length>3611</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>13-FEB-2001</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus proviral partial gag gene for gag polyprotein and partial pol gene for pol polyprotein, specific host Mandrillus leucophaeus</GBSeq_definition>
+    <GBSeq_primary-accession>AJ310481</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ310481.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ310481.1|</GBSeqid>
+      <GBSeqid>gi|12830502</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>gag gene</GBKeyword>
+      <GBKeyword>gag polyprotein</GBKeyword>
+      <GBKeyword>pol gene</GBKeyword>
+      <GBKeyword>pol polyprotein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..3611</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Clewley,J.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..3611</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Clewley,J.P.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (12-FEB-2001) Clewley J.P., Virus Reference Division, Central Public Health Laboratory, 61 Colindale Avenue, London NW9 5HT, UNITED KINGDOM</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..3611</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>3611</GBInterval_to>
+            <GBInterval_accession>AJ310481.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Mandrillus leucophaeus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>sample reference number, 96-60211</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..951</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>951</GBInterval_to>
+            <GBInterval_accession>AJ310481.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..951</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>951</GBInterval_to>
+            <GBInterval_accession>AJ310481.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gag polyprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAC29089.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q998S7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000721</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001878</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR008916</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR008919</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR013084</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q998S7</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>IINEEAAEWDRRNPQVGPLPQGVLRNPSGSDIAGTTSTIEEQIEWTTRPQDAINVGAVYRQWVVLGLQRCVTMYNPVNILDVKQGPKEPFKDYVDRFYKALRAEHTDSAVKNWMTQTLLIQNANPDCKVILKGLGTNPTLKEMLLACQGVGGPAHKARVMAEAMREQQAAIMMQQNPPRGPPRGPRGPPPKQLRCPNCGQYGHALRQCTKPRKKGCFRCGALDHMLRNCPKQVNFLGNAPWGSGKPRNFPQASLTPSAPPMPGYAQEDPAEKMLRQYMEQGGQQKRQQRQQQQQKKGPYEDAYNSLSSLFGSDQLQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>654..3605</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>654</GBInterval_from>
+            <GBInterval_to>3605</GBInterval_to>
+            <GBInterval_accession>AJ310481.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>pseudo</GBQualifier_name>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>654..3605</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>654</GBInterval_from>
+            <GBInterval_to>3605</GBInterval_to>
+            <GBInterval_accession>AJ310481.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>frameshift at positions 1210 to 1225</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>pseudo</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atcatcaatgaagaggcagccgagtgggacagaagaaatcctcaagtgggacctctcccacaaggggtgctcagaaatccctcagggtcagatattgctggaaccactagcaccatagaagagcagatagagtggactaccagaccccaggacgccatcaatgtgggcgctgtttatagacaatgggtagtcctagggttacaaagatgtgtgacaatgtacaatccagtcaacatcttggatgtaaaacaaggccccaaagagccttttaaggactatgtagacagattctacaaagccttgagagcagaacatacagattcagcagtaaagaactggatgacgcagacactgttgattcaaaatgctaatccagactgtaaggtgattctcaaaggcctagggacgaaccccactctgaaagaaatgctgctagcctgtcagggagtaggaggaccagcacacaaggctagggttatggcagaagcaatgagagaacagcaggcagccataatgatgcagcagaaccccccaagaggtccaccgcggggacctaggggaccccctcccaagcaactcagatgtccaaactgcgggcagtatggacatgccctaagacaatgtacaaagcctagaaaaaagggatgctttagatgtggtgctttagatcatatgttaagaaactgcccaaaacaggtgaattttttagggaatgctccctggggcagtgggaaaccaaggaattttcctcaggcctcactgaccccatcagctccaccaatgccagggtatgcacaggaagatccagcagagaaaatgctcaggcagtacatggagcagggaggtcagcagaagagacaacagaggcagcagcaacaacagaagaagggtccttacgaggacgcctacaattccctcagttctctcttcggctcagaccaactacagtagtagcaatagatgggcaaaaggtagaggccttactagacacaggagcagatgatacagtaattcaaggattagagttaaaaggaagatggaaaccacaaattataggaggaatcggcggaaccattaatgtaaaacagtattttaattgcagaattgagatagcaggtaaagttactcatgctaatgtgctagtgggccctaccccctgtaaatattataggtagaaatgtgctttgtaaattaggagctacacttaattttcctgttagtcaagtagaaccagtaaaagtaacactaaaaccaggtgtggatggaccaaagataaaacaatggcccctctctaaagaaaagatagaggctctaagacagatttgtgaggaaatggaaaaggaaggtcagatcagtagaataggtccagaaaacccatacaacacaccggtgttttgcattaaaaagaaagatggtgtcaaatggagaaaattagtagacttcagacaactaaacaaggcaacacaggatttctttgaggtgcagttggggattcctcacccaggaggcttaaaagcctgcgagcagatcacagttttggatgtaggtgatgcttatttctcatgccctttggatccagactttagaaagtacgtacactgcattcaccataccatcggtgaataatcagggcccaggaatcaggtatcagtataatgtccttcctcagggctggaaaggctcacctgcaatctttcaagctacagcagacaagatcctgcaaccattcagggagaaaaacccagatgtgattatatatcagtacatggatgatctgtttgtaggaagtgataggccaaagcatctgcatgatcaaatgattaaagaactgagagctcatttaaaattctgggggctcgagaccccagataagaaatttcaggagaaccctccttatgaatggatgggatatcaactgcatccaaagaaatggactgtacaagaaatcaagttgcctgaaaaggagacatggacagtaaatgatattcagaaattggtaggagttcttaattgggcaagtcaaatttattccggaattaaaactaaagagctctgtaaattgattaggggagcaaaacctctggatgaagaggtagaatggacaagggaagcagaactagaatatgaggaaaacagactcatattaaaagaacaaatgcatggggtatattatcagcctaacaaacccttaaaagccaaggttcagaagttgggcaatggccagtggtcctatcagatagaacaagatgacaataagccactaaaaacaggaaaatatgccaaggtaaagaacagccataccaatgatatgagaatgctggcagggttagtacaaaaaatagcaaaagaagctttagtaatctggggagagttgccaactttctacctaccggtggaaagagaggtatgggaacagtggtggcaggagtattggcaggtaacctggattcctgattgggaattcatttcaacaccaccccttatcaagttatggtataacttgctgaatgaaccaattccaggagaagaagtctactatgtggatggagctgccaatagggtgagcaaggaaggaaaagcaggatatgttacctctagaggaaaagaaaaggtaatccccttagaagagaccactaatcaaaaggctgaattacatgctatactattagcattaaaagactcaggtccaaaagtcaatatagtaacagattctcaatatgccatgggcataataacctcctctccagaaatcagtgacaaccccatagtaaatcagataatagaacagatgattagtaaagaagcagtatatctaaattgggtaccagcacataaaggcattggaggcaatgaggaagtagacaaattagtcagtaaaggaataagacaagtgctgtttttagataatatggaaaaagcacaagaggagcatgacttatatcacaataattggagatccttggcacaagaatttggcctaccaggtatagtggcaaaagaaatagtagcacagtgtcccaaatgtcaggtaaaaggggaacccatgcgtggccaggtagatgcaagtccaggaacttggcaaatggactgtacacatttagagggaaaaatcatcatagtagcagtccatgtagcaagtggctacatagaagcagaagtaataccagcagaaacaggagaaaagacagcttacttcctgttaaaactggctggcagatggccagtaacacatctgcacacagacaatggtcccaatttcaccagtgagaaggtagcaacagtctgttggtgggctaaaatagagcacacaacaggggtaccctataacccccagagtcaaggagtagtagaagccatgaacaaccagttaaaaatcatcataggacaaataagagatcaagcagaaaagttagaaacagcagtacaaatggcagtactcattcacaattttaaaagaaaagggggggtaggggagtgcagtgcagcagaaagaatagtaaacattatagccacagatctcttaacaaccaaattacaacaaaatgttctcaaaattcaaaattttcgggtttattacagagaaggaagagatcagttgtggaagggaccag</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AM696246</GBSeq_locus>
+    <GBSeq_length>1053</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>29-OCT-2007</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus partial env gene for envelope glycoprotein V2-V5 region, genomic RNA, isolate SIVcpzMB897</GBSeq_definition>
+    <GBSeq_primary-accession>AM696246</GBSeq_primary-accession>
+    <GBSeq_accession-version>AM696246.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AM696246.1|</GBSeqid>
+      <GBSeqid>gi|158935234</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env gene</GBKeyword>
+      <GBKeyword>envelope glycoprotein</GBKeyword>
+      <GBKeyword>gp120</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1053</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Van Heuverswyn,F.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Bailes,E.</GBAuthor>
+          <GBAuthor>Neel,C.</GBAuthor>
+          <GBAuthor>Lafay,B.</GBAuthor>
+          <GBAuthor>Keele,B.F.</GBAuthor>
+          <GBAuthor>Shaw,K.S.</GBAuthor>
+          <GBAuthor>Takehisa,J.</GBAuthor>
+          <GBAuthor>Kraus,M.H.</GBAuthor>
+          <GBAuthor>Loul,S.</GBAuthor>
+          <GBAuthor>Butel,C.</GBAuthor>
+          <GBAuthor>Liegeois,F.</GBAuthor>
+          <GBAuthor>Yangda,B.</GBAuthor>
+          <GBAuthor>Sharp,P.M.</GBAuthor>
+          <GBAuthor>Mpoudi-Ngole,E.</GBAuthor>
+          <GBAuthor>Delaporte,E.</GBAuthor>
+          <GBAuthor>Hahn,B.H.</GBAuthor>
+          <GBAuthor>Peeters,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic diversity and phylogeographic clustering of SIVcpzPtt in wild chimpanzees in Cameroon</GBReference_title>
+        <GBReference_journal>Virology 368 (1), 155-171 (2007)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.virol.2007.06.018</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>17651775</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1053</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Van Heuverswyn,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-APR-2007) Van Heuverswyn F., UMR145, I.R.D., 911 Avenue Agropolis, 34394 Montpellier Cedex 5, FRANCE</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1053</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1053</GBInterval_to>
+            <GBInterval_accession>AM696246.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>SIVcpzMB897</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>fecal matter</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Pan troglodytes troglodytes (wild)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Cameroon</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1053</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1053</GBInterval_to>
+            <GBInterval_accession>AM696246.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1053</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1053</GBInterval_to>
+            <GBInterval_accession>AM696246.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>V2-V5 region</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAM90456.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:A8Y8C1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000777</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:A8Y8C1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>TPLCVTLNCSTNTTTEASQVQYNCSFNVTTELRDKKKQVYSLFYREDITSLDSNKTVKNGTYRLINCNTTAITQACPKTSFEPIPIYYCAPAGFALLKCNDQNFKGKGTCRNVSTVHCTHGIKPVVSTQFLLNGSLAEGNKTVVRVRSKSNTETIIVQLATAIYINCTRLGNKTIEGIPIGPGQIFYRTKTVVGDTRGAECRINGTAWNETLRQVKEALNNTYRNLNLSLTEINFEGASGGDLEVTTHYFNCGGEFFYCNTSNLFNQSTINNITHIPCRIRQIVNQWQGVGKGIFAPPIRGTIQCNSTITGLLLTRDGKNETETFRPTGGDMRNNWRSELYKYKVVKIEPL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>acccccctctgtgtgaccttaaactgttccacaaatacaactacagaggcatctcaggtgcagtataattgttctttcaatgtaactacagaattaagagataagaagaagcaagtgtactccttattttatagagaggacataacaagtcttgatagcaataagacagttaaaaatggaacttataggttaattaactgtaataccacagccataacccaggcttgtccaaaaacatcatttgaaccaattcctatttactattgtgcaccagctggatttgcccttttaaaatgtaatgaccagaatttcaagggaaaagggacatgtagaaatgttagcacagtgcattgtacacatggtattaagcctgtagtctctacccaattcctcttgaatggaagcctggcagaaggaaacaagactgtagttagggtaagaagtaaatctaatacagagactatcattgtgcagctagctacagcaatatatatcaattgtaccagactaggtaataaaaccatagagggcatacctatagggccaggacaaattttttataggactaaaacggtggtaggcgacaccagaggagcagagtgcagaattaatgggacagcctggaatgagactctgagacaggtaaaggaggcattaaacaacacatatcgaaatctcaatctcagtctcacagaaataaactttgaaggtgcatccggcggagatctagaagtaactacacattatttcaattgtggaggagaattcttttactgtaatacatcaaacttattcaatcaatccactattaacaatattacacacattccgtgcagaataagacaaattgtaaatcagtggcaaggagtaggaaaaggaatctttgcacctcctattagaggaacaattcaatgtaattccacaatcacaggcctactcttaacaagagatggtaaaaatgagactgaaacttttagacctacaggaggagacatgagaaataattggagaagtgaattatacaaatacaaggtagtaaaaattgaaccccta</GBSeq_sequence>
+  </GBSeq>

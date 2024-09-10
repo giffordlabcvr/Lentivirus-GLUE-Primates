@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MW004734</GBSeq_locus>
+    <GBSeq_length>2640</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>18-NOV-2020</GBSeq_update-date>
+    <GBSeq_create-date>18-NOV-2020</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus isolate ART_LNMC_DEEI_22R envelope glycoprotein (env) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MW004734</GBSeq_primary-accession>
+    <GBSeq_accession-version>MW004734.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MW004734.1|</GBSeqid>
+      <GBSeqid>gi|1931772491</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2640</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Liu,P.T.</GBAuthor>
+          <GBAuthor>Keele,B.F.</GBAuthor>
+          <GBAuthor>Abbink,P.</GBAuthor>
+          <GBAuthor>Mercado,N.B.</GBAuthor>
+          <GBAuthor>Liu,J.</GBAuthor>
+          <GBAuthor>Bondzie,E.A.</GBAuthor>
+          <GBAuthor>Chandrashekar,A.</GBAuthor>
+          <GBAuthor>Borducchi,E.N.</GBAuthor>
+          <GBAuthor>Hesselgesser,J.</GBAuthor>
+          <GBAuthor>Mish,M.</GBAuthor>
+          <GBAuthor>Chin,G.</GBAuthor>
+          <GBAuthor>Bekerman,E.</GBAuthor>
+          <GBAuthor>Geleziunas,R.</GBAuthor>
+          <GBAuthor>Barouch,D.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Origin of rebound virus in chronically SIV-infected Rhesus monkeys following treatment discontinuation</GBReference_title>
+        <GBReference_journal>Nat Commun 11 (1), 5412 (2020)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/s41467-020-19254-2</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>33110078</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2640</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Liu,P.-T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (15-SEP-2020) Beth Israel Deaconess Medical Center, Center for Virology and Vaccine Research, 3 Blackfan Circle, CLS 1030, Boston, MA 02115, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2640</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2640</GBInterval_to>
+            <GBInterval_accession>MW004734.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>SIVmac251</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>ART_LNMC_DEEI_22R</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Rhesus macaque</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>May-2020</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collected_by</GBQualifier_name>
+            <GBQualifier_value>PT Liu</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..2640</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2640</GBInterval_to>
+            <GBInterval_accession>MW004734.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..2640</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2640</GBInterval_to>
+            <GBInterval_accession>MW004734.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QPB76956.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MGCLGNQLLIAILLLSVYGIYCTQYVTVFYGVPAWRNATIPLFCATKNRDTWGTTQCLPDNGDYSELALNVTESFDAWENTVTEQAIEDVWQLFETSIKPCVKLSPLCITMKCNRSETDKWGLTKSSITTTTAPPTSNITSIDMVNETSSCIVHDNCTGLEQEQMIGCKFNMTGLKRDKKKEYNETWYSTDLVCEQGNSTENESRCYMNHCNTSVIQESCDKHYWDTIRFRYCAPPGYALLRCNDTNYSGFMPKCSKVVVSSCTRMMETQTSTWFGFNGTRAENRTYIYWHGRDNRTIISLNKYYNLTMNCRRPGNKTVLPVTIMSGLVFHSQPVNERPNQAWCWFGGNWKDAIKEVKQTIVKHPRYTGTNNTDKINLTAPRGGDPEVTFMWTNCRGEFLYCKMNWFLNWVEDRNVTTQRPKEQHRRNYVPCHIRQIINTWHKVGKNVYLPPREGDLTCNSTVTSLIANIDWTDGNQTNITMSAEVAELYRLELGDYKLVEITPIGLAPTGVKRYTTGGTSRNKRGVFVLGFLGFLATAGSAMGAASLTLTAQSRTLLAGIVQQQQQLLDVVKRQQELLRLTVWGTKNLQTRVTAIEKYLKDQAQLNAWGCAFRQVCHTTVPWPNASLIPDWNNDTWQEWERKVDFLEENITALLEEAQIQQEKNMYELQKLNSWDVFGNWFDLASWIKYIQYGVYVVVGVILLRIVIYIVQMLAKLRQGYRPVFSSPPSYFQQTHTQQDPALPTREGKGEDGGEGGGNSSWPWQIEYIHFLIRQLIRLLTWLFSNCRTLLSRAYQILQPILQRLSATLRRIREVLRTELTYLQYGWSYFHEAVQAGWRSATETLASAWGDLWETLRRGGRGILAIPRRIRQGLELTLL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggatgtcttgggaatcagctgcttatcgccatcttgcttttaagtgtctatgggatctattgtactcaatatgtcacagtcttttatggtgtaccagcttggaggaatgcgacaattccactcttctgtgcgaccaagaatagggatacttggggaacaactcagtgcctaccagataatggtgattattcagaattggcccttaatgttacagaaagctttgatgcttgggagaatacagtcacagaacaggcaatagaggatgtatggcaactctttgagacctcaataaagccttgtgtaaaattatccccattatgcattactatgaaatgcaatagaagtgagacagataaatggggattgacaaaatcatcaataacaacaacaacagcaccaccaacatcaaatataacatcaatagacatggtcaatgagactagttcttgtatagttcatgataattgcacaggcttggaacaagagcaaatgataggctgtaaattcaacatgacagggttaaaaagagacaagaaaaaggagtacaatgaaacttggtactctacagatttggtttgtgaacaagggaatagcactgaaaatgaaagtagatgttacatgaatcactgtaacacttctgttatccaagagtcttgtgacaagcattattgggatactattagatttaggtattgtgcacctccaggttatgctttgcttagatgtaatgacacaaattattcaggctttatgcctaaatgttctaaggtggtggtctcttcatgcacaaggatgatggagacacagacttctacctggtttggctttaatggaaccagagcagaaaatagaacttatatttactggcatggtagggataataggactataattagtttaaataagtattataatctaacaatgaattgtagaagaccaggaaataagacagttttgccagtcaccattatgtctggattggttttccactcacaaccagtcaatgagaggccaaaccaggcatggtgttggtttggaggaaattggaaggatgcaataaaagaggtgaagcagaccattgtcaaacatcccaggtatactggaactaacaatactgataaaatcaatttgacggctcctagaggaggagatccggaagttaccttcatgtggacaaattgcagaggagagtttctctactgtaaaatgaattggtttctaaattgggtagaggataggaatgtaactacccagaggccaaaggaacagcatagaaggaattacgtgccgtgtcatattagacaaataatcaacacttggcataaagtaggcaaaaatgtttatttacctccaagagagggagacctcacgtgtaactccacagtgaccagtctcatagcaaacatagattggactgatggaaaccaaactaatatcaccatgagtgcagaggtggcagaactgtatcgattggaattgggagattataaattagtagagatcactccgattggcttggcccccacaggtgtgaagaggtacactactggtggcacctcaagaaataaaagaggggtctttgtgctagggttcttgggttttctcgcaacggcaggttctgcaatgggcgcggcgtcgttgacgctgaccgctcagtcccggactttattggctgggatagtgcagcaacagcaacagctgttggacgtggtcaagagacaacaggaattgttgcgactgaccgtctggggaacaaagaacctccagactagggtcactgccatcgagaagtacttaaaggaccaggcgcagctgaatgcttggggatgtgcgtttagacaagtctgccacactactgtaccatggccaaatgcgagtctaataccagattggaacaatgatacttggcaagagtgggagcgaaaggttgacttcttggaggaaaatataacagccctcctagaagaggcacaaattcaacaagagaagaacatgtatgaattacaaaaattaaatagctgggatgtgtttggcaattggtttgaccttgcttcttggataaagtatatacaatatggagtttatgtagttgtaggagtaatactgttaagaatagtgatctatatagtacaaatgctagctaagttaaggcaggggtataggccagtgttctcttccccaccctcttatttccagcagactcatacccaacaggacccggcactgccaaccagagaaggcaaaggagaagacggtggagaaggcggtggcaacagctcctggccttggcagatagaatatattcatttcctgatccgccaactgatacgcctcttgacttggctattcagcaactgcagaaccttgctatcgagagcataccagatcctccaaccaatactccagaggctctctgcgaccctaagaaggattcgagaagtcctcaggactgaactgacctacctacaatatgggtggagctatttccatgaggcggtccaagcaggctggagatctgcgacagagactcttgcgagcgcgtggggagacttatgggagactcttaggagaggtggaagagggatcctcgcaatccctaggaggattaggcaagggcttgagctcacgctcttgtga</GBSeq_sequence>
+  </GBSeq>

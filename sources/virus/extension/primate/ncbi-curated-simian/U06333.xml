@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>SIU06333</GBSeq_locus>
+    <GBSeq_length>1126</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>25-MAR-1994</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus Mne clone SIVMne-ENV-M90076-wk38-(LN2-2) envelope glycoprotein (env) gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>U06333</GBSeq_primary-accession>
+    <GBSeq_accession-version>U06333.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|U06333.1|SIU06333</GBSeqid>
+      <GBSeqid>gi|463663</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1126</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chackerian,B.</GBAuthor>
+          <GBAuthor>Morton,W.R.</GBAuthor>
+          <GBAuthor>Overbaugh,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Persistence of simian immunodeficiency virus Mne variants upon transmission</GBReference_title>
+        <GBReference_journal>J. Virol. 68 (6), 4080-4085 (1994)</GBReference_journal>
+        <GBReference_pubmed>8189548</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1126</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Chackerian,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (07-FEB-1994) Bryce Chackerian, Microbiology, University of Washington, Health Sciences Building, Seattle, WA 98195, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1126</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1126</GBInterval_to>
+            <GBInterval_accession>U06333.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Mne</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>SIVMne-ENV-M90076-wk38-(LN2-2)</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1126</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1126</GBInterval_to>
+            <GBInterval_accession>U06333.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1126</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1126</GBInterval_to>
+            <GBInterval_accession>U06333.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA20302.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>KPCVKLTPLCITMKCNKSETDKWGLTKSSTTTSPTTTSTKTEAIKVVNESSPCINHDNCTGSEQEPMISCKFNMTGLKRDKRREYNETWYSADLVCEQGNSTEDESRCYMNHCNTSVIQESCDKHYWDAIRFRYCAPPGYALLRCNDTNYSGFMPNCSKVVVSSCTRMMETQTSTWFGFNGTRAENRTYIYWHSKDSRTIISLNKYYNLTMKCRRPGNKTVLPVTIMSGLVFHSQPVNDRPKQAWCRFEGNWKEAIKEVKQTIVKHPRYTGTNNTDKINLTAPGGGDPEVTFMWTNCRGEFLYCKMNWFLNWVEDKNLTGTTQKPQERHKRNYVPCHIRQIINTWHKVGRNVYLPPREGDLTCNSTVTSLIANID</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagccttgtgtaaaattaaccccattatgcattactatgaaatgcaacaaaagtgagacagataaatggggattgacaaaatcatcaacaacaacatcaccaacaacaacatcaacaaaaacagaggcaataaaagtggtcaatgagagtagtccttgtataaatcatgataattgcacaggctcggaacaagagccaatgataagctgtaaattcaacatgacagggttaaaaagagacaagagaagagagtacaatgaaacttggtactctgcagatttggtttgtgaacaaggtaatagcactgaagatgaaagtagatgttacatgaatcactgtaacacttctgttattcaagaatcttgtgacaaacattattgggatgctattagatttaggtattgtgcacctccaggttatgctttgcttagatgtaatgacacaaattattcaggctttatgcctaactgttctaaggtggtggtctcttcatgcacaagaatgatggagacacagacttctacttggtttggctttaatggaactagagcagaaaatagaacttatatttactggcatagcaaagatagtaggactataattagtttgaataagtattataatctaacaatgaaatgtagaagaccaggaaataagacagttttaccagtcaccatcatgtctggattggttttccactcacaaccagtcaatgataggccaaaacaggcatggtgtaggtttgaaggaaattggaaggaggcaataaaagaggtaaagcagaccattgtcaaacatcccaggtatactggaactaacaatactgataaaatcaatttgacggctcctggaggaggagatccggaagttaccttcatgtggacaaattgcagaggagagtttctctactgtaaaatgaattggtttctaaattgggtagaagataagaatctgactggaactacccagaagccacaggaacggcataaaaggaattacgtgccatgtcatattagacaaataatcaacacttggcataaagtaggcagaaatgtttatttgcctccaagagagggagacctcacgtgtaattccacagtgaccagtctcatagcaaacatagatt</GBSeq_sequence>
+  </GBSeq>

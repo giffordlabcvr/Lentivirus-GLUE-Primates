@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>X06393</GBSeq_locus>
+    <GBSeq_length>1193</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>02-APR-1988</GBSeq_update-date>
+    <GBSeq_create-date>02-APR-1988</GBSeq_create-date>
+    <GBSeq_definition>STLV-3 mRNA fragment (pBS3)</GBSeq_definition>
+    <GBSeq_primary-accession>X06393</GBSeq_primary-accession>
+    <GBSeq_accession-version>X06393.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|X06393.1|</GBSeqid>
+      <GBSeqid>gi|61587</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>Y00283</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_keywords>
+      <GBKeyword>long terminal repeat</GBKeyword>
+      <GBKeyword>unidentified reading frame</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1193</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hahn,B.H.</GBAuthor>
+          <GBAuthor>Kong,L.I.</GBAuthor>
+          <GBAuthor>Lee,S.W.</GBAuthor>
+          <GBAuthor>Kumar,P.</GBAuthor>
+          <GBAuthor>Taylor,M.E.</GBAuthor>
+          <GBAuthor>Arya,S.K.</GBAuthor>
+          <GBAuthor>Shaw,G.M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Relation of HTLV-4 to simian and human immunodeficiency-associated viruses</GBReference_title>
+        <GBReference_journal>Nature 330 (6144), 184-186 (1987)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/330184a0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>2823148</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1193</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hahn,B.H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (09-DEC-1987) Hahn B.H., University of Alabama at Birmingham (UAM), 1918 University Blud, BHSB 288, Birminghom, AL 35295</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>It is asumed that pBS3 is a labaratory contaminant of SIV mac 251.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1193</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1193</GBInterval_to>
+            <GBInterval_accession>X06393.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>pBS3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>mRNA</GBFeature_key>
+        <GBFeature_location>1..1193</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1193</GBInterval_to>
+            <GBInterval_accession>X06393.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>mRNA fragment</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transcription</GBQualifier_name>
+            <GBQualifier_value>CTGCAGAACCTTGCTATCGAGAGCATACCAGATCCTCCAACCAATACTCCAGAGGCTCTCTGCGACCCTACGAAGGATTCGAGAAGTCCTCAGGACTGAACTGACCTACCTACAATATGGGTGGAGCTATTTCCATGAGGCGGTCCAAGCCGGCTGGAGATCTGCGACAGAAACTCTTGCGGGCGCGTGGGGAGACTTATGGGAGACTCTTAGGAGAGGTGAAAGATGGATCCTCGCAATCCCTAGGAGGATTAGGCAAGGACTTGAGCTCACGCTCTTGTAAGGGACAGAAATACAATCAGGGGCAGTATATGAATACTCCATGGAGAAACCCAGCTGAAGAAAAGGAAAAATTAGCATACAGAAAACAAAATATGGATGATATAGATGAGGAAGATGATGACTTGGTAGGGGTATCAGTGAGGCCAAAAGTTCCCCTAAGAGCAATGACTTACAAATTGGCAATAGATATGTCTCATTTTATAAAAGAAAAGGGGGGACTGGAAGGGATTTATTACAGTGCAAGAAGACATAGAATCTTAGACATGTACTTAGAAGGCATCATACCAGATTGGCAGGATTACACCTCAGGACCAGGAATTAGATACCCAAAGACATTTGGCTGGCTATGGAAATTAGTCCCTGTAAATGTATCAGATGAGGCACAGGAGGATGAGAGGCATTATTTAATGCAGCCAGCTCAAACTTCCAAGTGGGATGACCCTTGGGGAGAGGTTCTAGCGTGGAAGTTTGATCCAACTCTAGCCTACACTTATGAGGCATATGTTAGATACCCAGAAGAGTTTGGAAGCAAGTCAGGCCTGTCAGAGGAAGAGGTTAGAAGAAGGCTAACCGCAAGAGGCCTTCTTAACATGGCTGACAAGAGGGAAACTCGCTGAGACAGCAGGGACTTTCCACAAGGGGATGTTATGGGGAGGAGCCGGTCGGGAACACCCACTTTCTTGATGTATAAATATCACTGCATTTCGCTCTGTATTCAGTCGCTCTGCGGAGAGGCTGGTAGATTGAGCCCTGGGAGGTTCTCTCCAGCACTAGCAGGTAGAGCCTGGGTGTTCCCTGCTAGACTCTCACCAGCACTTGGCCAGTGCTGGGCAGAGTGGCTCCACGCTTGCTTGCTTAAAGACCTCTTCAATAAAGCTGCCATTTTACCCCCCCCCCCCCCCCCCCTGCAG</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>554..1193</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>554</GBInterval_from>
+            <GBInterval_to>1193</GBInterval_to>
+            <GBInterval_accession>X06393.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>region homologous to lambda PKE102</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>554..899</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>554</GBInterval_from>
+            <GBInterval_to>899</GBInterval_to>
+            <GBInterval_accession>X06393.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>unnamed protein product; 3' ORF (554 is 3rd base in codon)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAA29694.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q85610</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001558</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q85610</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>EGIIPDWQDYTSGPGIRYPKTFGWLWKLVPVNVSDEAQEDERHYLMQPAQTSKWDDPWGEVLAWKFDPTLAYTYEAYVRYPEEFGSKSGLSEEEVRRRLTARGLLNMADKRETR</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctgcagaaccttgctatcgagagcataccagatcctccaaccaatactccagaggctctctgcgaccctacgaaggattcgagaagtcctcaggactgaactgacctacctacaatatgggtggagctatttccatgaggcggtccaagccggctggagatctgcgacagaaactcttgcgggcgcgtggggagacttatgggagactcttaggagaggtgaaagatggatcctcgcaatccctaggaggattaggcaaggacttgagctcacgctcttgtaagggacagaaatacaatcaggggcagtatatgaatactccatggagaaacccagctgaagaaaaggaaaaattagcatacagaaaacaaaatatggatgatatagatgaggaagatgatgacttggtaggggtatcagtgaggccaaaagttcccctaagagcaatgacttacaaattggcaatagatatgtctcattttataaaagaaaaggggggactggaagggatttattacagtgcaagaagacatagaatcttagacatgtacttagaaggcatcataccagattggcaggattacacctcaggaccaggaattagatacccaaagacatttggctggctatggaaattagtccctgtaaatgtatcagatgaggcacaggaggatgagaggcattatttaatgcagccagctcaaacttccaagtgggatgacccttggggagaggttctagcgtggaagtttgatccaactctagcctacacttatgaggcatatgttagatacccagaagagtttggaagcaagtcaggcctgtcagaggaagaggttagaagaaggctaaccgcaagaggccttcttaacatggctgacaagagggaaactcgctgagacagcagggactttccacaaggggatgttatggggaggagccggtcgggaacacccactttcttgatgtataaatatcactgcatttcgctctgtattcagtcgctctgcggagaggctggtagattgagccctgggaggttctctccagcactagcaggtagagcctgggtgttccctgctagactctcaccagcacttggccagtgctgggcagagtggctccacgcttgcttgcttaaagacctcttcaataaagctgccattttaccccccccccccccccccctgcag</GBSeq_sequence>
+  </GBSeq>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>SIVAGMGAGC</GBSeq_locus>
+    <GBSeq_length>1763</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-JAN-1900</GBSeq_update-date>
+    <GBSeq_create-date>26-JUL-1993</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus (clone agm40gag) gag gene, complete exon</GBSeq_definition>
+    <GBSeq_primary-accession>L19252</GBSeq_primary-accession>
+    <GBSeq_accession-version>L19252.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|L19252.1|SIVAGMGAGC</GBSeqid>
+      <GBSeqid>gi|310427</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>gag gene</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1763</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hirsch,V.M.</GBAuthor>
+          <GBAuthor>McGann,C.</GBAuthor>
+          <GBAuthor>Dapolito,G.</GBAuthor>
+          <GBAuthor>Goldstein,S.</GBAuthor>
+          <GBAuthor>Ogen-Odoi,A.</GBAuthor>
+          <GBAuthor>Biryawaho,B.</GBAuthor>
+          <GBAuthor>Lakwo,T.</GBAuthor>
+          <GBAuthor>Johnson,P.R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification of a new subgroup of SIVagm in tantalus monkeys</GBReference_title>
+        <GBReference_journal>Virology 197 (1), 426-430 (1993)</GBReference_journal>
+        <GBReference_pubmed>8212578</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1763</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1763</GBInterval_to>
+            <GBInterval_accession>L19252.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>agm40gag</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>haplotype</GBQualifier_name>
+            <GBQualifier_value>na</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_line</GBQualifier_name>
+            <GBQualifier_value>CEMss</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>193..1763</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>193</GBInterval_from>
+            <GBInterval_to>1763</GBInterval_to>
+            <GBInterval_accession>L19252.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>193..1763</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>193</GBInterval_from>
+            <GBInterval_to>1763</GBInterval_to>
+            <GBInterval_accession>L19252.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gag</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggcgcccgaacagggacttgagtcagggagactccactgaaggggaggaaaggcatcaccggtcgagttccccggacgcggtaagtcgggacgcggggaggcgaaagggattcgccaggaaacaggactgccaaggaggcaggggtggtgcaagtagatctaggtgggcgacagatcgcacctgggtgagcaatgggagcgggacactcggcactgtcagggaggaatttggacacatttgagaaaatacgcttacccccgaacggaaagaaaaagtatcaattaaaacatttaatatgggcaggcaaggaaatggagcgcttcggcctccatgataaattgttagaaacaaaagaaggctgtcaaaaaatcatagaagtattggcccccttagaaccaacaggatcagaggggctaaaaagcctattcaatttaacctgcgtcatttggtgtgttcacgcagaacagaaagtgaaagacacagaggaagctgtagcaacagtaagacaacactgccatctagtggaaaaagaaaaaagtacaacagagccatctagtggacaaaagcaacatagcaggccagatgcgccatctcgtggccaacatggaaattacccagtagtgcagcaaaataaccaatgggtgcatactcctttgtcaccacgcaccctaaatgcttgggttaaaacagtggaggaaaaaaggtttggagcagagatagtccctatgttccaagcactatcagaaggttgcctaagctatgatataaatcaaatgctaaatgtcataggagatcatcagggagcaatgcaaattattaaggaggtgatcaatgaagaagcagcccaatgggacttaactcatccccctccagcaggcccactaccagcagggcagcttagagaccccagagggtcagacatagcaggaacaactagcacagtccaggaacaaatagaatggacatttaatgctaaccctagagtagatgtagggagactctatcgaggatgggttattttaggtctacaaaaatgtgtaaaaatgtataatcccatctcggtccttgatattagacaaggagccaaggagccattcaaggattatgtagatagattctatcaggccctgagagcagaacaaacaccccaagatgtaaaaaattggatgacagaaactctgttgattcaaaatgccaacccggactgtaagctggtcctaaaaggactaggaatgcatcccaccttggaggaaatgcttacagcctgtcaaggagtaggaggaccagggcataaagccaaattaatggctgaagctatgcaaaacatgcaagggattactatggtagctcaaggaccaagaggaagaggcagaagcagaggaccagtccgatgctttagatgtggacaaattggccatatccaaaaagactgccctaaaggaggaccaataaaatgtctcaaatgtggaaagccaggacacatggcaaaagactgcaggtcagggcaggcaaattttttagggagaatgacaccatggggatcgaagccgcgcaattttttagagcaaggcggagccgttccgacggctccacccatgccaacgcacggattccccaccggtcctccagcacagggagcatacgacccagccaagagattattggaacagtatgcgaagaagggggaccaactgagaagacagaaagagaaggaattggaggattattccttgagttccctctttggagaagaccaataagc</GBSeq_sequence>
+  </GBSeq>

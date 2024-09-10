@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KR999368</GBSeq_locus>
+    <GBSeq_length>1338</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>03-MAR-2016</GBSeq_update-date>
+    <GBSeq_create-date>24-JUN-2015</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus isolate 092N02Plasma_04 envelope glycoprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>KR999368</GBSeq_primary-accession>
+    <GBSeq_accession-version>KR999368.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KR999368.1|</GBSeqid>
+      <GBSeqid>gi|837764307</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1338</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lamers,S.L.</GBAuthor>
+          <GBAuthor>Nolan,D.J.</GBAuthor>
+          <GBAuthor>Rife,B.D.</GBAuthor>
+          <GBAuthor>Fogel,G.B.</GBAuthor>
+          <GBAuthor>McGrath,M.S.</GBAuthor>
+          <GBAuthor>Burdo,T.H.</GBAuthor>
+          <GBAuthor>Autissier,P.</GBAuthor>
+          <GBAuthor>Williams,K.C.</GBAuthor>
+          <GBAuthor>Goodenow,M.M.</GBAuthor>
+          <GBAuthor>Salemi,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Tracking the Emergence of Host-Specific Simian Immunodeficiency Virus env and nef Populations Reveals nef Early Adaptation and Convergent Evolution in Brain of Naturally Progressing Rhesus Macaques</GBReference_title>
+        <GBReference_journal>J. Virol. 89 (16), 8484-8496 (2015)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.01010-15</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>26041280</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1338</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Lamers,S.L.</GBAuthor>
+          <GBAuthor>Nolan,D.J.</GBAuthor>
+          <GBAuthor>Rife,B.D.</GBAuthor>
+          <GBAuthor>Fogel,G.B.</GBAuthor>
+          <GBAuthor>McGrath,M.S.</GBAuthor>
+          <GBAuthor>Burdo,T.H.</GBAuthor>
+          <GBAuthor>Autissier,P.</GBAuthor>
+          <GBAuthor>Williams,K.C.</GBAuthor>
+          <GBAuthor>Goodenow,M.M.</GBAuthor>
+          <GBAuthor>Salemi,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-JUN-2015) Department of Pathology and Laboratory Medicine, The University of Florida, 2055 Mowry Rd, Gainesville, FL 32610, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Genious v. R9 ; Sequencing Technology :: Single Genome Sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1338</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1338</GBInterval_to>
+            <GBInterval_accession>KR999368.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>092N02Plasma_04</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Rhesus macaque</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>01-May-2013</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1338</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1338</GBInterval_to>
+            <GBInterval_accession>KR999368.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>env</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>envelope glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AKM96737.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>WRNATIPLFCATKNRDTWGTTQCLPDNGDYSELALNVTESFDAWNNTVTEQPIEDVWQLFETSIKPCVKLSPLCITMRCNKSETDRWGLTKSSTTTAAPTSMATSIDMVNETSSCITHDNCTGLEQEQMIGCKFNMTGLKRDKTKEYNETWYSTDLVCEQGNSTDNESRCYMNHCNTSVIQESCDKHYWDTIRFRYCAPPGYALLRCNDTNYSGFMPKCSKVVVSSCTRMMETQTSTWFGFNGTRAENRTYIYWHGRDNRTIISLNKYYNLTMKCRRPGNKTVLPVTIMSGLVFHSQPVNERPNQAWCWFGGNWKDAIKEVKQTIVKHPRYTGTNNTDKINLTAPRGGDPEVTFMWTNCRGEFLYCKMNWFLNWIEDRDLTTQRPKERHRRNYVPCHIRQIINTWHKVGKNVYLPPREGDLTCNSTVTSLIANIDWTDGNQTNITM</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tggaggaatgcgacaattcccctcttctgtgcaaccaagaatagggatacttggggaacaactcagtgcctaccagataatggtgattattcagaattggcccttaatgttacagaaagctttgatgcctggaataatacagtcacagaacagccaatagaggatgtatggcaactctttgagacctcaataaagccttgtgtaaagttatccccattatgcattactatgagatgcaataaaagtgagacagatagatggggattgacaaaatcatcaacaacaacagcagcaccaacatcaatggcaacatcaatagacatggtcaatgagactagttcttgtataactcatgataattgcacaggcttggaacaagagcaaatgataggctgtaaattcaatatgacagggttaaaaagagacaagacaaaggagtacaatgaaacttggtactctacagatttggtttgtgaacaagggaatagcactgataatgaaagtagatgctacatgaatcactgtaacacttctgttatccaagagtcttgtgacaaacattattgggatactattagatttaggtattgtgcacctccaggttatgctttgcttagatgtaatgacacaaattattcaggctttatgcctaaatgttctaaggtggtggtctcttcatgcacaaggatgatggagacacagacttctacttggtttggctttaatggaactagagcagaaaatagaacttatatttactggcatggtagggataataggactataattagtttaaataagtattataatctaacaatgaaatgtagaagaccaggaaataagacagttttaccagtcaccattatgtctggattggttttccactcacaaccagtcaatgagaggccaaaccaggcatggtgttggtttggaggaaattggaaggatgcaataaaagaggtgaagcagaccattgtcaaacatcccaggtatactggaactaacaatactgataaaatcaatttgacggctcctagaggaggagatccggaagttaccttcatgtggacaaattgcagaggagagtttctctactgtaaaatgaattggtttctaaattggatagaagatagggatctaactacccagaggccaaaggaacggcatagaaggaattacgtgccatgtcatattagacaaataatcaacacttggcataaagtaggcaaaaatgtttatttgcctccaagagagggagacctcacgtgtaactccacagtgaccagtctcatagcaaatatagattggactgatggaaaccaaactaatatcaccatg</GBSeq_sequence>
+  </GBSeq>

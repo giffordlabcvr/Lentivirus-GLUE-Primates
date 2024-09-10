@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ551401</GBSeq_locus>
+    <GBSeq_length>1895</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>25-JUL-2016</GBSeq_update-date>
+    <GBSeq_create-date>02-OCT-2003</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus Qu proviral partial pol gene for polymerase</GBSeq_definition>
+    <GBSeq_primary-accession>AJ551401</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ551401.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ551401.1|</GBSeqid>
+      <GBSeqid>gi|37496576</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>pol gene</GBKeyword>
+      <GBKeyword>polymerase</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian immunodeficiency virus Qu</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus Qu</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1895</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Verschoor,E.J.</GBAuthor>
+          <GBAuthor>Fagrouch,Z.</GBAuthor>
+          <GBAuthor>Bontjer,I.</GBAuthor>
+          <GBAuthor>Niphuis,H.</GBAuthor>
+          <GBAuthor>Heeney,J.L.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A novel simian immunodeficiency virus isolated from a Schmidt's guenon (Cercopithecus ascanius schmidti)</GBReference_title>
+        <GBReference_journal>J. Gen. Virol. 85 (PT 1), 21-24 (2004)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1099/vir.0.19427-0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>14718615</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1895</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Verschoor,E.J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-MAR-2003) Verschoor E.J., Virology, Biomedical Primate Research Centre, PO Box. 3306 Rijswijk, 2280 GH, NETHERLANDS</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1895</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1895</GBInterval_to>
+            <GBInterval_accession>AJ551401.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus Qu</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>Qu</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Cercopithecus ascanius schmidti</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:225978</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1895</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1895</GBInterval_to>
+            <GBInterval_accession>AJ551401.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1895</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1895</GBInterval_to>
+            <GBInterval_accession>AJ551401.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>pol</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>function</GBQualifier_name>
+            <GBQualifier_value>essential for viral replication</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAD83157.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GOA:Q70SH3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>HSSP:1B9F</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR000477</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR001584</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR002156</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR003308</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR010659</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR010661</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR012337</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR017856</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q70SH3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>QVLRQMEHVSIVDMKDAFYSVPLDPAFAPYTAFTVPSVNNASPGERYQFRVLPQGWKGSPTIFQHTAAGILEPLRAQYSDMTIIQYMDDLLIGSNRPIESHRKAVQAIRQTLTSQGIATPLEKYQEDFPVTWLGYELHPKSWTISKIELPNQQEWTVNDLQKLIGKLNWASQIYPGIKTKQLCKLLRGAKGLLDKVELSEDAEAELRENQEILSQEHTGGYYREDLPLEVEVVSLGDTQWGYMFKQDKQVLKTGKFAKVRSVHVNQYGQLADALTRLGRESLVYWGRLPEFRIPVVQEQWNTWWAEHWQANWIPEVKAVHTPPLLRSWFTLATAPLDAPTFYTDGAANRESKLGKAGYVTNTGKRACIGLENTTNQKAELEAVKLALKEGPRKMNLVTDSQYVLNIFAGAPEVSDHPLVEDIIQLLLGKESVYLTWVPAHKGIGGNEEVDKLVSSGIRQVLFLDGINQAQEEHERYHTNWKYLRDTFQIPTLVAKEIINHCPKCQSQGEPKTGQVNASLGLWQMDCTHLEGKVVLTAVHVASGYVWARIIPNETGRITALELLNLCATWPVHHIHTDNGPNFISQEFAAAVWWANIEHTTGVPYNPQSQGVIENVNKQLKKTIAKVRDEVQ</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>gcaggtactgcgacagatggagcatgtgtccatagtggacatgaaggatgccttttacagcgtccctctagacccagcatttgctccgtatactgcatttaccgtcccatcggtgaataatgcttccccaggagagcgctatcagttcagagtcttgccgcagggatggaaggggtctcctaccatcttccagcacacagcagcagggatcttagagccgctgagggcccagtactcagatatgaccatcatacagtatatggacgacctcttaataggctctaacaggcctattgaaagtcatcgcaaggcggtgcaggcaataaggcagactctgacctcacaagggatagcaaccccgctggaaaaatatcaggaggacttcccagtaacatggttagggtatgagttgcacccaaaaagctggaccatatcaaaaatagaacttcctaatcagcaggagtggacagttaatgatctccaaaagttaatagggaagttaaattgggcaagccaaatatatccagggattaagaccaagcagttgtgcaaactcctcaggggagccaagggactcttggacaaagtagagctcagcgaggacgcagaagccgagctgagggaaaatcaggagattctgtctcaagaacacacagggggatattacagagaggacctccccctagaggtagaagtggtgtccctaggggatacacaatggggatacatgttcaaacaggacaaacaggtcctcaaaacagggaagtttgctaaggtaagatcagtgcatgtcaaccaatatggacagctggcagatgctctaaccaggctaggcagagaaagtctggtctattggggtcgcttgccggagttccgcatcccagtggtgcaggagcagtggaacacctggtgggcggaacactggcaggctaattggatcccagaggtcaaggcggtacacaccccgcccttgttgagaagctggttcaccttggcaacagctcccttggatgctccgaccttttacaccgacggggcagccaacagagaatccaaattagggaaggcaggctatgtgacaaacacagggaaaagagcctgcatagggttagaaaacactactaaccagaaagcagaattggaggcagtcaaattggccttaaaagaagggccaagaaaaatgaacctggtaacggactctcaatacgtgctgaacatcttcgcgggggcaccggaggtgtccgaccaccccctggtggaggacatcatccagttgctcctgggaaaggagtccgtttacctcacttgggtaccagcccataaaggcattggaggcaatgaagaggtagataaattagtaagtagtggtataagacaggtgttgttcctggacggtatcaaccaagcccaggaggaacatgaaagataccacacaaattggaagtatcttagagacaccttccaaatacccaccttggtagccaaggaaataattaatcattgcccaaaatgtcagagccaaggagagcccaaaacagggcaggtcaatgcgtcacttggattatggcagatggattgcacgcatttggaaggaaaggtagtcctaacagccgtccatgtggcaagtggttatgtatgggccaggataattcccaatgaaacgggaagaatcacagcactggagctgctaaacttgtgtgctacatggccagtccaccacatccatacagataatggaccaaattttattagccaggaatttgcagcagcagtgtggtgggcaaacatagagcacacaacaggggtaccatacaacccccaaagtcagggagtaatagaaaatgtcaacaagcagttgaagaaaacaattgccaaagtcagagatgaagtgcagt</GBSeq_sequence>
+  </GBSeq>

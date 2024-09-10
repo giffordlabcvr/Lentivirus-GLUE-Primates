@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>X06879</GBSeq_locus>
+    <GBSeq_length>1142</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>04-NOV-1995</GBSeq_update-date>
+    <GBSeq_create-date>21-JUN-1988</GBSeq_create-date>
+    <GBSeq_definition>Simian Immunodeficiency virus (Mac251) envelope gene DNA (part.) integrated copy</GBSeq_definition>
+    <GBSeq_primary-accession>X06879</GBSeq_primary-accession>
+    <GBSeq_accession-version>X06879.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|X06879.1|</GBSeqid>
+      <GBSeqid>gi|61719</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_secondary-accessions>
+      <GBSecondary-accn>Y00294</GBSecondary-accn>
+    </GBSeq_secondary-accessions>
+    <GBSeq_keywords>
+      <GBKeyword>env gene</GBKeyword>
+      <GBKeyword>envelope gene</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1142</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kestler,H.W. III</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Naidu,Y.M.</GBAuthor>
+          <GBAuthor>Butler,C.V.</GBAuthor>
+          <GBAuthor>Ochs,M.F.</GBAuthor>
+          <GBAuthor>Jaenel,G.</GBAuthor>
+          <GBAuthor>King,N.W.</GBAuthor>
+          <GBAuthor>Daniel,M.D.</GBAuthor>
+          <GBAuthor>Desrosiers,R.C.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Comparison of simian immunodeficiency virus isolates</GBReference_title>
+        <GBReference_journal>Nature 331 (6157), 619-622 (1988)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/331619a0</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>2893293</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1142</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kestler,H.W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (25-FEB-1988) Kestler H.W., Harvard Medical School, New England Regional Primate Research Center, Department of Microbiology, One Pine Hill Drive, Southborough, Mass. 01772, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1142</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1142</GBInterval_to>
+            <GBInterval_accession>X06879.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>Macaca mulatta 251(host)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>clone</GBQualifier_name>
+            <GBQualifier_value>lambda SIV 251</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..1142</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1142</GBInterval_to>
+            <GBInterval_accession>X06879.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>put. env gene (1 is 2nd base in codon)</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1026..1029</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1026</GBInterval_from>
+            <GBInterval_to>1029</GBInterval_to>
+            <GBInterval_accession>X06879.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>in frame stop codon</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgtggacaaattgcagaggagagttcctctactgtaaaatgaattggtttctaaattgggtagaggatagggatgtaactacccagaggccaaaggaacggcatagaaggaattacgtgccgtgtcatattagacaaataatcaacacttggcataaagtaggcaaaaatgtttatttgcctccaagagagggagacctcacgtgtaactccacagtgaccagtctcatagcaaacatagattggactgatggaaaccaaactaatatcaccatgagtgcagaggtggcagaactgtatcgattggagttgggagattataaattagtagagatnnnnnnnnnnnnnnnnncccccacagatgtgaagaggtacactactggtggcacctcaagaaataaaagaggggtctttgtgctagggttcttgggttttctcgcaacggcaggttctgcaatgggcgcggcgtcnnnnnnnnnnnccgctcagtcccggactttattggctgggatagtgcagcaacagcaacagctgttggacgtggtcaagagacaacaagaattgttgcgactgaccgtctggggaacaaagaacctccagactagggtcactgccatcgagaagtacttaaaggaccaggcgcagctgaatgcttggggatgtgcgtttagacaagtctgccacactactgtaccatggccaaatgcaagtctaacaccagactggaacaatgatacttggcaagagtgggagcgaaaggttgacttcttggaggaaaatataacagccctcctagaagaggcacaaattcaacaagagaagaacatgtatgaattacaaaagttgaatagctgggatgtgtttggcaatnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngatctatatagtacaaatgctagctaagttaaggcaggggtataggccagtgttctcttccccaccctcttatttctagcagactcatacccaacaggacccggcactgccaaccagagaaggcaaagaaggagacggtggagaaggcggtggcaacagctcctggccttggcagatagaatatattcatttc</GBSeq_sequence>
+  </GBSeq>

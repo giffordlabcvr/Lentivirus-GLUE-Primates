@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>SIVENVAA</GBSeq_locus>
+    <GBSeq_length>1572</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-AUG-1991</GBSeq_update-date>
+    <GBSeq_create-date>03-AUG-1993</GBSeq_create-date>
+    <GBSeq_definition>Simian immunodeficiency virus envelope gene, partial sequence, clone 1A11.SU</GBSeq_definition>
+    <GBSeq_primary-accession>M74144</GBSeq_primary-accession>
+    <GBSeq_accession-version>M74144.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M74144.1|SIVENVAA</GBSeqid>
+      <GBSeqid>gi|334469</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>env protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1572</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Planelles,V.</GBAuthor>
+          <GBAuthor>Haigwood,N.L.</GBAuthor>
+          <GBAuthor>Marthas,M.L.</GBAuthor>
+          <GBAuthor>Mann,K.A.</GBAuthor>
+          <GBAuthor>Scandella,C.</GBAuthor>
+          <GBAuthor>Lidster,W.D.</GBAuthor>
+          <GBAuthor>Shuster,J.R.</GBAuthor>
+          <GBAuthor>Van Kuyk,R.</GBAuthor>
+          <GBAuthor>Marx,P.A.</GBAuthor>
+          <GBAuthor>Gardner,M.B.</GBAuthor>
+          <GBAuthor>et al.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Functional and immunological characterization of SIV envelope glycoprotein produced in genetically engineered mammalian cells</GBReference_title>
+        <GBReference_journal>AIDS Res. Hum. Retroviruses 7 (11), 889-898 (1991)</GBReference_journal>
+        <GBReference_pubmed>1760229</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1572</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1572</GBInterval_to>
+            <GBInterval_accession>M74144.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>proviral</GBQualifier_name>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>cell_line</GBQualifier_name>
+            <GBQualifier_value>HuT-78</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgggatgtcttgggaatcagctgcttatcgccatcttgcttttaagtgtctatgggatctattgtactctatatgtcacagtcttttatggtgtaccagcttggaggaatgcgacgattcccctcttctgtgcaaccaagaatagggatacttggggaacaactcagtgcctaccagataatggtgattattcagaattggcccttaatgttacagaaagctttgatgcttgggagaatacagtcacagaacaggcaatagaagatgtatggcaactctttgagacctcaataaagccttgtgtaaaattaaccccattatgcattactatgagatgcaataaaagtgagacagatagatggggattgacaaaatcatcaacaacaaccacagcagcaccaaaggcaatgtcagaaaaaataaacatgatcaatgagactagttcttgtatagttcatgataattgcacaggcttggaacaagagcaaatgataggctgtaaattcaacatgacagggttaaaaagagacaagaaaaaagagtacaatgaaacttggtactctgcagatttggtatgtgaacaagggaatagcactggtaatgaaagtagatgttacatgaatcactgtaacacttctgttatccaagagtcttgtgacaaacattattgggatgctattagatttaggtattgtgcacctccaggttatgctttgcttagatgtaatgacacaaattattcaggctttatgcctaaatgttctaaggtggtggtctcttcatgcacaaggatgatggagacacagacttctacttggtttggctttaatggaactagagcagaaaatagaacttatatttactggcatggtagggataatagaactataattagtttaaataagtattataatctaacaataaaatgtagaagaccaggaaataagacagttttaccagtcaccattatgtctcaattggttttccactcacaaccaatcaatgataggccaaagcaggcatggtgttggtttagaggaaaatggaaggatgcaataaaagaggtgaagcagaccattgtcaaacatcccaggtatactggaactaacaatactgataaaatcaatttgacggctcctggaggaggagatccggaagttaccttcatgtggacaaattgcagaggagagtttctctactgtaaaatgaattggtttttaaattgggtagaagataggaatacagctaaccagaagccaaaggaacaacataaaaggaattacgtgccatgtcatattagacaaataatcaacacttggcataaagtaggcaaaaatgtttatttgcctccaagagagggagacctcacgtgtatctccacagtgaccagtctcatagcaaacatagattggactgatggaaaccaaactaatatcaccatgagtgcagaggtggcagaactgtatcgattggaattgggagattataaattagtagagatcactccaattggcttggcccccacaaatgtgaggaggtacactactggtggcacctcaagaaataaaaga</GBSeq_sequence>
+  </GBSeq>

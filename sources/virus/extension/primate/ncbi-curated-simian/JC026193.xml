@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>JC026193</GBSeq_locus>
+    <GBSeq_length>2954</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>24-JAN-2014</GBSeq_update-date>
+    <GBSeq_create-date>24-JAN-2014</GBSeq_create-date>
+    <GBSeq_definition>Sequence 105 from Patent EP2675924</GBSeq_definition>
+    <GBSeq_primary-accession>JC026193</GBSeq_primary-accession>
+    <GBSeq_accession-version>JC026193.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|JC026193.1|</GBSeqid>
+      <GBSeqid>pat|EP|2675924|105</GBSeqid>
+      <GBSeqid>gi|576048850</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Simian immunodeficiency virus (SIV)</GBSeq_source>
+    <GBSeq_organism>Simian immunodeficiency virus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes; Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2954</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>JOHNSON,J.A.</GBAuthor>
+          <GBAuthor>HENEINE,W.M.</GBAuthor>
+          <GBAuthor>LIPSCOMB,J.T.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>REAL-TIME PCR POINT MUTATION ASSAYS FOR DETECTING HIV - 1 RESISTANCE TO ANTIVIRAL DRUGS</GBReference_title>
+        <GBReference_journal>EP2675924-A2 105 25-DEC-2013 US GOVERNMENT [US]</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2954</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2954</GBInterval_to>
+            <GBInterval_accession>JC026193.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Simian immunodeficiency virus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11723</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cccatagctaaagtagagcctgtaaaagtcgccttaaagccaggaaaggatggaccaaaattgaagcagtggccattatcaaaagaaaagatagttgcattaagagaaatctgtgaaaagatggaaaaggatggtcagttggaggaagctcccccgaccaatccatacaacacccccacatttgctataaagaaaaaggataagaacaaatggagaatgctgatagattttagggaactaaatagggtcactcaggactttacggaagtccaattaggaataccacaccctgcaggactagcaaaaaggaaaagaattacagtactggatataggtgatgcatatttctccatacctctagatgaagaatttaggcagtacactgcctttactttaccatcagtaaataatgcagagccaggaaaacgatacatttataaggttctgcctcagggatggaaggggtcaccagccatcttccaatacactatgagacatgtgctagaacccttcaggaaggcaaatccagatgtgaccttagtccagtatatggatgacatcttaatagctagtgacaggacagacctggaacatgacagggtagttttacagtcaaaggaactcttgaatagcatagggttttctaccccagaagagaaattccaaaaagatcccccatttcaatggatggggtacgaattgtggccaacaaaatggaagttgcaaaagatagagttgccacaaagagagacctggacagtgaatgatatacagaagttagtaggagtattaaattgggcagctcaaatttatccaggtataaaaaccaaacatctctgtaggttaattagaggaaaaatgactctaacagaggaagttcagtggactgagatggcagaagcagaatatgaggaaaataaaataattctcagtcaggaacaagaaggatgttattaccaagaaggcaagccattagaagccacggtaataaagagtcaggacaatcagtggtcttataaaattcaccaagaagacaaaatactgaaagtaggaaaatttgcaaagataaagaatacacataccaatggagtgagactattagcacatgtaatacagaaaataggaaaggaagcaatagtgatctggggacaggtcccaaaattccacttaccagttgagaaggatgtatgggaacagtggtggacagactattggcaggtaacctggataccggaatgggattttatctcaacaccaccgctagtaagattagtcttcaatctagtgaaggaccctatagagggagaagaaacctattatacagatggatcatgtaataaacagtcaaaagaagggaaagcaggatatatcacagataggggcaaagacaaagtaaaagtgttagaacagactactaatcaacaagcagaattggaagcatttctcatggcattgacagactcagggccaaaggcaaatattatagtagattcacaatatgttatgggaataataacaggatgccctacagaatcagagagcaggctagttaatcaaataatagaagaaatgattaaaaagtcagaaatttatgtagcatgggtaccagcacacaaaggtataggaggaaaccaagaaatagaccacctagttagtcaagggattagacaagttctcttcttggaaaagatagagccagcacaagaagaacatgataaataccatagtaatgtaaaagaattggtattcaaatttggattacccagaatagtggccagacagatagtagacacctgtgataaatgtcatcagaaaggagaggctatacatgggcaggcaaattcagatctagggacttggcaaatggattgtacccatctagagggaaaaataatcatagttgcagtacatgtagctagtggattcatagaagcagaggtaattccacaagagacaggaagacagacagcactatttctgttaaaattggcaggcagatggcctattacacatctacacacagataatggtgctaactttgcttcgcaagaagtaaagatggttgcatggtgggcagggatagagcacacctttggggtaccatacaatccacagagtcagggagtagtggaagcaatgaatcaccacctgaaaaatcaaatagatagaatcagggaacaagcaaattcagtagaaaccatagtattaatggcagttcattgcatgaattttaaaagaaggggaggaataggggatatgactccagcagaaagattaattaacatgatcactacagaacaagagatacaatttcaacaatcaaaaaactcaaaatttaaaaattttcgggtctattacagagaaggcagagatcaactgtggaagggacccggtgagctattgtggaaaggggaaggagcagtcatcttaaaggtagggacagacattaaggtagtacccagaagaaaggctaaaattatcaaagattatggaggaggaaaagaggtggatagcagttcccacatggaggataccggagaggctagagaggtggcatagcctcataaaatatctgaaatataaaactaaagatctacaaaaggtttgctatgtgccccattttaaggtcggatgggcatggtggacctgcagcagagtaatcttcccactacaggaaggaagccatttagaagtacaagggtattggcatttgacaccagaaaaagggtggctcagtacttatgcagtgaggataacctggtactcaaagaacttttggacagatgtaacaccaaactatgcagacattttactgcatagcacttatttcccttgctttacagcgggagaagtgagaagggccatcaggggagaacaactgctgtcttgctgcaggttcccgagagctcataagtaccaggtaccaagcctacagtacttagcactgaaagtag</GBSeq_sequence>
+  </GBSeq>
