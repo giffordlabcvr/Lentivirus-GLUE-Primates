@@ -1,0 +1,9 @@
+  # Import unconstrained alignment
+
+  delete module srlvTreeAlignmentImporterNucs
+  create module -f modules/analysis/phylogeny/extension/srlv/srlvTreeAlignmentImporterNucs.xml
+
+  module srlvTreeAlignmentImporterNucs
+	import AL_UNC_TREE_OvineCaprine -f alignments/export/srlv-genomes-recursive.aln.fna
+	exit
+
