@@ -1,0 +1,6 @@
+
+  # Import LANL sequences
+  # import source sources/ncbi-lanl-genomes/
+  # module hivLanlTextFilePopulator populate -f tabular/refseq_data/lanl-alignment-data.csv
+
+

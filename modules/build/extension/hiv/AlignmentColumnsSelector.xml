@@ -1,0 +1,44 @@
+<alignmentColumnsSelector>
+    <relRefName>REF_MASTER_NC_001802</relRefName>
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>86</startCodon>
+        <endCodon>86</endCodon>
+    </aminoAcidRegionSelector>
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>87</startCodon>
+        <endCodon>87</endCodon>
+    </aminoAcidRegionSelector>
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>91</startCodon>
+        <endCodon>91</endCodon>
+    </aminoAcidRegionSelector>
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>92</startCodon>
+        <endCodon>92</endCodon>
+    </aminoAcidRegionSelector>
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>107</startCodon>
+        <endCodon>107</endCodon>
+    </aminoAcidRegionSelector>
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>116</startCodon>
+        <endCodon>116</endCodon>
+    </aminoAcidRegionSelector>
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>180</startCodon>
+        <endCodon>180</endCodon>
+    </aminoAcidRegionSelector>
+    <aminoAcidRegionSelector>
+        <featureName>capsid</featureName>
+        <startCodon>213</startCodon>
+        <endCodon>213</endCodon>
+    </aminoAcidRegionSelector>
+</alignmentColumnsSelector>  
+

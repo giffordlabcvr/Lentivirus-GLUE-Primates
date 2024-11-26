@@ -1,0 +1,24 @@
+<ecmaFunctionInvoker>
+
+	<scriptFileName>hivCalculateCodonChanges.js</scriptFileName>
+	
+	<function>
+		<name>calculateCodonChanges</name>
+		<parameter>
+			<name>refsequence</name>
+		</parameter>
+		<parameter>
+			<name>refname</name>
+		</parameter>
+		<parameter>
+			<name>alignment</name>
+		</parameter>
+		<parameter>
+			<name>feature</name>
+		</parameter>
+	
+		<tableFromObjectsResultType/>
+	</function>
+	
+</ecmaFunctionInvoker>
+	 
