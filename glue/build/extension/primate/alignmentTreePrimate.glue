@@ -16,23 +16,12 @@ delete alignment AL_HIV-1M_crf02
 alignment AL_ROOT
 
   add member -w "source.name = 'ncbi-refseqs-hiv-1'" 
-  add member -w "source.name = 'ncbi-curated-primate-primate'"
-  add member -w "source.name = 'ncbi-curated-primate-subtype-a'"
-  add member -w "source.name = 'ncbi-curated-primate-subtype-b'"
-  add member -w "source.name = 'ncbi-curated-primate-subtype-c'"
-  add member -w "source.name = 'ncbi-curated-primate-subtype-d'"
-  add member -w "source.name = 'ncbi-curated-primate-subtype-f1'"
-  add member -w "source.name = 'ncbi-curated-primate-subtype-g'"
-  add member -w "source.name = 'ncbi-curated-primate-crf01'"
-  add member -w "source.name = 'ncbi-curated-primate-crf02'"
-  add member -w "source.name = 'ncbi-curated-primate-group-n'"
-  add member -w "source.name = 'ncbi-curated-primate-group-o'"
-  add member -w "source.name = 'ncbi-curated-primate-group-p'"
+  add member -w "source.name = 'ncbi-refseqs-siv'"
+  add member AL_Primate -w "sequence.source.name like '%-primate-%'"
   
   demote member AL_Primate -w "sequence.source.name = 'ncbi-refseqs-hiv-1'"
-  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-primate-subtype%'"
-  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-primate-crf%'"
-  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-primate-group%'"
+  demote member AL_Primate -w "sequence.source.name = 'ncbi-refseqs-siv'"
+  demote member AL_Primate -w "sequence.source.name like '%-primate-%'"
 
   exit
 
@@ -40,7 +29,12 @@ alignment AL_ROOT
 # Primate
 alignment AL_Primate
 
-  # Extract group M master reference 
+  # Extract Hominid group
+  extract child AL_Hominid   --refName REF_HIV_1M
+  demote member AL_Hominid   --whereClause "sequence.species = 'HIV-1'"
+
+
+  # Extract group M master reference
   extract child AL_HIV-1M   --refName REF_HIV_1M
   demote member AL_HIV-1M   --whereClause "sequence.clade = 'M'" 
 
@@ -77,7 +71,7 @@ alignment AL_HIV-1M
   demote member AL_HIV-1M_D     --whereClause "sequence.subtype = 'D'" 
 
   extract child AL_HIV-1M_F     --refName REF_HIV-1M_F1_KU168275
-  demote member AL_HIV-1M_F     --whereClause "sequence.subtype = 'F%'" 
+  demote member AL_HIV-1M_F     --whereClause "sequence.subtype like 'F%'"
 
   extract child AL_HIV-1M_G     --refName REF_HIV-1M_G_KU168300
   demote member AL_HIV-1M_G     --whereClause "sequence.subtype = 'G'" 
@@ -90,20 +84,4 @@ alignment AL_HIV-1M
 
   exit
 
-
-
-# Compute full genome alignments 
-compute alignment AL_HIV-1M_A hivCompoundAligner
-compute alignment AL_HIV-1M_B hivCompoundAligner 
-compute alignment AL_HIV-1M_C hivCompoundAligner
-compute alignment AL_HIV-1M_D hivCompoundAligner  
-compute alignment AL_HIV-1M_F hivCompoundAligner 
-compute alignment AL_HIV-1M_G hivCompoundAligner 
-
-compute alignment AL_HIV-1M_crf01 hivCompoundAligner 
-compute alignment AL_HIV-1M_crf02 hivCompoundAligner
-
-compute alignment AL_HIV-1O hivCompoundAligner 
-compute alignment AL_HIV-1P hivCompoundAligner
-compute alignment AL_HIV-1N hivCompoundAligner 
 

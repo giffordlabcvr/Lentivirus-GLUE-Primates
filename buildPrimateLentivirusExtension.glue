@@ -20,7 +20,7 @@
         # Extract and import isolate data for extension sequences
         run file glue/build/extension/primate/importIsolateDataPrimate.glue
 
-        # Import alignments and create constrained alignment tree
+        # Import the root alignment for the HIV-1 clade
         run file glue/build/extension/primate/createHivRootAlignment.glue
 
         # Add extension set sequences constrained alignment tree
