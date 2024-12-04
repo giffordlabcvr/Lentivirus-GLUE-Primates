@@ -1,5 +1,5 @@
-// list the sequences in source ncbi-curated-subtype-a
-var listSeqResultA = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-subtype-a'"]);
+// list the sequences in source ncbi-curated-primate-subtype-a
+var listSeqResultA = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-subtype-a'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsA = glue.getTableColumn(listSeqResultA, "sequenceID");
@@ -11,11 +11,11 @@ _.each(seqIdsA, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-subtype-a/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-subtype-a/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-subtype-a/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-subtype-a/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -26,8 +26,8 @@ _.each(seqIdsA, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-subtype-b
-var listSeqResultB = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-subtype-b'"]);
+// list the sequences in source ncbi-curated-primate-subtype-b
+var listSeqResultB = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-subtype-b'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsB = glue.getTableColumn(listSeqResultB, "sequenceID");
@@ -39,11 +39,11 @@ _.each(seqIdsB, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-subtype-b/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-subtype-b/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-subtype-b/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-subtype-b/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -54,8 +54,8 @@ _.each(seqIdsB, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-subtype-c
-var listSeqResultC = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-subtype-c'"]);
+// list the sequences in source ncbi-curated-primate-subtype-c
+var listSeqResultC = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-subtype-c'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsC = glue.getTableColumn(listSeqResultC, "sequenceID");
@@ -67,11 +67,11 @@ _.each(seqIdsC, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-subtype-c/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-subtype-c/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-subtype-c/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-subtype-c/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -82,8 +82,8 @@ _.each(seqIdsC, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-subtype-d
-var listSeqResultD = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-subtype-d'"]);
+// list the sequences in source ncbi-curated-primate-subtype-d
+var listSeqResultD = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-subtype-d'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsD = glue.getTableColumn(listSeqResultD, "sequenceID");
@@ -95,11 +95,11 @@ _.each(seqIdsD, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-subtype-d/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-subtype-d/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-subtype-d/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-subtype-d/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -110,8 +110,8 @@ _.each(seqIdsD, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-subtype-f
-var listSeqResultF = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-subtype-f1'"]);
+// list the sequences in source ncbi-curated-primate-subtype-f
+var listSeqResultF = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-subtype-f1'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsF = glue.getTableColumn(listSeqResultF, "sequenceID");
@@ -123,11 +123,11 @@ _.each(seqIdsF, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-subtype-f1/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-subtype-f1/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-subtype-f1/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-subtype-f1/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -138,8 +138,8 @@ _.each(seqIdsF, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-subtype-g
-var listSeqResultG = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-subtype-g'"]);
+// list the sequences in source ncbi-curated-primate-subtype-g
+var listSeqResultG = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-subtype-g'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsG = glue.getTableColumn(listSeqResultG, "sequenceID");
@@ -151,11 +151,11 @@ _.each(seqIdsG, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-subtype-g/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-subtype-g/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-subtype-g/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-subtype-g/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -166,8 +166,8 @@ _.each(seqIdsG, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-subtype-crf01
-var listSeqResultCrf01 = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-crf01'"]);
+// list the sequences in source ncbi-curated-primate-subtype-crf01
+var listSeqResultCrf01 = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-crf01'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsCrf01 = glue.getTableColumn(listSeqResultCrf01, "sequenceID");
@@ -179,11 +179,11 @@ _.each(seqIdsCrf01, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-crf01/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-crf01/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-crf01/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-crf01/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -194,8 +194,8 @@ _.each(seqIdsCrf01, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-subtype-crf02
-var listSeqResultCrf02 = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-crf02'"]);
+// list the sequences in source ncbi-curated-primate-subtype-crf02
+var listSeqResultCrf02 = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-crf02'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsCrf02 = glue.getTableColumn(listSeqResultCrf02, "sequenceID");
@@ -207,11 +207,11 @@ _.each(seqIdsCrf02, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-crf02/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-crf02/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-crf02/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-crf02/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -222,8 +222,8 @@ _.each(seqIdsCrf02, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-group-n
-var listSeqResultHiv1n = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-group-n'"]);
+// list the sequences in source ncbi-curated-primate-group-n
+var listSeqResultHiv1n = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-group-n'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsHiv1n = glue.getTableColumn(listSeqResultHiv1n, "sequenceID");
@@ -235,11 +235,11 @@ _.each(seqIdsHiv1n, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-group-n/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-group-n/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-group-n/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-group-n/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -250,8 +250,8 @@ _.each(seqIdsHiv1n, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-group-o
-var listSeqResultHiv1o = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-group-o'"]);
+// list the sequences in source ncbi-curated-primate-group-o
+var listSeqResultHiv1o = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-group-o'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsHiv1o = glue.getTableColumn(listSeqResultHiv1o, "sequenceID");
@@ -263,11 +263,11 @@ _.each(seqIdsHiv1o, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-group-o/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-group-o/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-group-o/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-group-o/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);
@@ -278,8 +278,8 @@ _.each(seqIdsHiv1o, function(seqId) {
 
 });
 
-// list the sequences in source ncbi-curated-group-p
-var listSeqResultHiv1p = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-group-p'"]);
+// list the sequences in source ncbi-curated-primate-group-p
+var listSeqResultHiv1p = glue.command(["list", "sequence", "-w", "source.name = 'ncbi-curated-primate-group-p'"]);
 
 // extract from the result a list of sequence IDs.
 var seqIdsHiv1p = glue.getTableColumn(listSeqResultHiv1p, "sequenceID");
@@ -291,11 +291,11 @@ _.each(seqIdsHiv1p, function(seqId) {
     glue.command(["create", "custom-table-row", "isolate_data", seqId]);
     
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/ncbi-curated-group-p/"+seqId, function() {
+    glue.inMode("sequence/ncbi-curated-primate-group-p/"+seqId, function() {
         glue.command(["set", "link-target", "isolate_data", "custom-table-row/isolate_data/"+seqId]);
     });
 
-	glue.inMode("sequence/ncbi-curated-group-p/"+seqId, function() {
+	glue.inMode("sequence/ncbi-curated-primate-group-p/"+seqId, function() {
 		
 		glue.command(["set", "field", "subgenus", 'Primate']);
 		glue.command(["set", "field", "species", 'HIV-1']);

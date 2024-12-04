@@ -21,13 +21,13 @@
         run file glue/build/extension/primate/importIsolateDataPrimate.glue
 
         # Import alignments and create constrained alignment tree
-        run file glue/build/extension/primate/hivRootAlignment.glue
+        run file glue/build/extension/primate/createHivRootAlignment.glue
 
         # Add extension set sequences constrained alignment tree
         run file glue/build/extension/primate/alignmentTreePrimate.glue
 
         # Record feature presence
-        run file glue/build/extension/primate/recordFeaturePresencePrimate.glue
+        #run file glue/build/extension/primate/recordFeaturePresencePrimate.glue
 
         # Validate
         validate

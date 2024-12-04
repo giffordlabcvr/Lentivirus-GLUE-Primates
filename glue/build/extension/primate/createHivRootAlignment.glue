@@ -1,17 +1,19 @@
 # Create root alignment
-create alignment  AL_ROOT -r REF_MASTER_B_AF033819 
-alignment AL_ROOT
+delete alignment AL_HIV1_ROOT
+create alignment AL_HIV1_ROOT -r REF_HIV_1M
+
+alignment AL_HIV1_ROOT
   set field displayName "Gorilla/chimpanzee/human primate"
   add member -a
   exit
 
 # Import unconstrained alignment
 module unconstrainedAlignmentImporter
-  import AL_ROOT_UNCONSTRAINED -f alignments/root/hiv-1-root.fna
+  import AL_UNC_HIV1_ROOT -f alignments/hiv-1-root.fna
   exit
 
 # Derive constrained alignment segments from unconstrained alignments
-alignment AL_ROOT
-  derive segments AL_ROOT_UNCONSTRAINED -a --existingMembersOnly --mergeStrategy OVERWRITE
+alignment AL_HIV1_ROOT
+  derive segments AL_UNC_HIV1_ROOT -a --existingMembersOnly --mergeStrategy OVERWRITE
   exit
 
