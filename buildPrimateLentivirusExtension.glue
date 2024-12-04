@@ -11,11 +11,14 @@
         # Import sources
         run file glue/build/extension/primate/sourcesPrimate.glue
 
+        # Define additional features (HIV-1)
+        run file glue/build/extension/primate/hivFeatures.glue
+
         # Define extension references
         run file glue/build/extension/primate/referencesPrimate.glue
 
         # Attach feature locations to the reference sequences
-        run file glue/build/extension/primate/featureLocationsPrimate.glue
+        run file glue/build/extension/primate/explicitFeatureLocationsPrimate.glue
 
         # Extract and import isolate data for extension sequences
         run file glue/build/extension/primate/importIsolateDataPrimate.glue
@@ -28,6 +31,9 @@
 
         # Record feature presence
         #run file glue/build/extension/primate/recordFeaturePresencePrimate.glue
+
+        # Attach feature locations to the reference sequences
+        #run file glue/core/hivVariations.glue
 
         # Validate
         validate

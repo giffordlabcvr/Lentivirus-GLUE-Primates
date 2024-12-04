@@ -1,0 +1,12 @@
+
+  # Clean up any previous - delete modules
+  delete module sivNcbiImporterCurated
+  
+  # Create modules
+  create module -f modules/build/extension/primate/sivNcbiImporterCurated.xml
+
+  # Download NCBI sequences 
+  module sivNcbiImporterCurated import
+
+  # Export sources
+  export source ncbi-curated-simian

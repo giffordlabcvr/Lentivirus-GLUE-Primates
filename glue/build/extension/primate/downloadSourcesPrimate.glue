@@ -1,28 +1,28 @@
 # Create importer modules 
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlCRF01genomes.xml 
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlCRF02genomes.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlGroupNgenomes.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlGroupOgenomes.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlGroupPgenomes.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlSubAgenomes.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlSubBgenomes.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlSubCgenomes.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlSubF1genomes.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlSivGor.xml
-create module -f modules/build/extension/primate/ncbiImporters/hivConvarNcbiImporterLanlSivCpz.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlCRF01genomes.xml 
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlCRF02genomes.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlGroupNgenomes.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlGroupOgenomes.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlGroupPgenomes.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlSubAgenomes.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlSubBgenomes.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlSubCgenomes.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlSubF1genomes.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlSivGor.xml
+create module -f modules/build/extension/primate/ncbiImporters/ncbiImporterLanlSivCpz.xml
 
 # Download NCBI sequences 
-module hivConvarNcbiImporterLanlCRF01genomes import
-module hivConvarNcbiImporterLanlCRF02genomes import
-module hivConvarNcbiImporterLanlGroupNgenomes import
-module hivConvarNcbiImporterLanlGroupOgenomes import
-module hivConvarNcbiImporterLanlGroupPgenomes import
-module hivConvarNcbiImporterLanlSubAgenomes import
-module hivConvarNcbiImporterLanlSubBgenomes import
-module hivConvarNcbiImporterLanlSubCgenomes import
-module hivConvarNcbiImporterLanlSubF1genomes import
-module hivConvarNcbiImporterLanlSivGor import
-module hivConvarNcbiImporterLanlSivCpz import
+module ncbiImporterLanlCRF01genomes import
+module ncbiImporterLanlCRF02genomes import
+module ncbiImporterLanlGroupNgenomes import
+module ncbiImporterLanlGroupOgenomes import
+module ncbiImporterLanlGroupPgenomes import
+module ncbiImporterLanlSubAgenomes import
+module ncbiImporterLanlSubBgenomes import
+module ncbiImporterLanlSubCgenomes import
+module ncbiImporterLanlSubF1genomes import
+module ncbiImporterLanlSivGor import
+module ncbiImporterLanlSivCpz import
 
 # Export sources 
 export source sources/ncbi-curated-primate-crf01/

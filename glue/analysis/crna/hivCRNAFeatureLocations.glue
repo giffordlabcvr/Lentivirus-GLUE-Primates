@@ -1,0 +1,126 @@
+
+  # Define features on the subtype B reference 'NL43'
+  reference REF_B_KM390026
+
+
+    add feature-location SD1
+    feature-location SD1
+      add segment 741 749
+      exit
+ 
+    add feature-location A1a
+    feature-location A1a
+      add segment 4530 4542
+      exit
+ 
+    add feature-location D1a
+    feature-location D1a
+      add segment 4720 4727
+      exit
+
+    add feature-location A1
+    feature-location A1
+      add segment 4910 4913
+      exit
+ 
+    add feature-location ESE-vif
+    feature-location ESE-vif
+      add segment 4918 4927
+      exit
+
+    add feature-location ESEM1
+    feature-location ESEM1
+      add segment 4933 4939
+      exit
+
+    add feature-location ESEM2
+    feature-location ESEM2
+      add segment 4956 4962
+      exit
+
+    add feature-location ID2
+    feature-location ID2
+      add segment 4992 5039
+      exit
+
+    add feature-location IF
+    feature-location IF
+      add segment 5223 5343
+      exit
+
+    add feature-location JC2
+    feature-location JC2
+      add segment 5394 5413
+      exit
+
+    add feature-location JD1
+    feature-location JD1
+      add segment 5457 5502
+      exit
+
+    add feature-location A3
+    feature-location A3
+      add segment 5774 5777
+      exit
+
+    add feature-location ESS2p
+    feature-location ESS2p
+      add segment 5779 5785
+      exit
+
+    add feature-location ESE-tat
+    feature-location ESE-tat
+      add segment 5807 5837
+      exit
+
+    add feature-location ESE2
+    feature-location ESE2
+      add segment 5838 5845
+      exit
+
+    add feature-location KD2
+    feature-location KD2
+      add segment 5876 5898
+      exit
+
+    add feature-location A4b
+    feature-location A4b
+      add segment 5957 5974
+      exit
+
+    add feature-location A5
+    feature-location A5
+      add segment 5973 5976
+      exit
+
+    add feature-location D4
+    feature-location D4
+      add segment 5838 5845
+      exit
+
+    add feature-location ESE-GAR
+    feature-location ESE-GAR
+      add segment 5976 6001
+      exit
+
+    add feature-location ISS
+    feature-location ISS
+      add segment 8325 8347
+      exit
+
+    add feature-location A7
+    feature-location A7
+      add segment 8366 8369
+      exit
+
+    add feature-location ESE(GAA)3
+    feature-location ESE(GAA)3
+      add segment 8372 8376
+      exit
+
+    add feature-location ESS3
+    feature-location ESS3
+      add segment 8444 8459
+      exit
+
+  exit  
