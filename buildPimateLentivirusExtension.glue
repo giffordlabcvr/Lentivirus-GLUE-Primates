@@ -1,40 +1,36 @@
 
-	# Build species-level extension projects
+    # Build species-level extension projects
 
-	# Primate lentiviruses
+    # Primate lentiviruses
 
-	 project lentivirus
+     project lentivirus
 
-		# Delete previous extension build
-		#run file glue/build/extension/primate/deleteExtensionBuildPrimate.glue
+        # Create modules
+        run file glue/build/extension/primate/modulesPrimate.glue
 
-		# Create modules
-		create module -f modules/build/extension/primate/hivCompoundAligner.xml
-		create module -f modules/build/extension/primate/hivGagPolTranslationModifier.xml
+        # Import sources
+        run file glue/build/extension/primate/sourcesPrimate.glue
 
-		# Import sources
-		run file glue/build/extension/primate/sourcesPrimate.glue
+        # Define extension references
+        run file glue/build/extension/primate/referencesPrimate.glue
 
-		# Define extension references
-		run file glue/build/extension/primate/referencesPrimate.glue
+        # Attach feature locations to the reference sequences
+        run file glue/build/extension/primate/featureLocationsPrimate.glue
 
-		# Attach feature locations to the reference sequences 
-		run file glue/build/extension/primate/featureLocationsPrimate.glue
+        # Extract and import isolate data for extension sequences
+        run file glue/build/extension/primate/importIsolateDataPrimate.glue
 
-		# Extract and import isolate data for extension sequences
-		run file glue/build/extension/primate/importIsolateDataPrimate.glue
-	
-		# Import alignments and create constrained alignment tree
-		#run file glue/build/extension/hivRootAlignment.glue
+        # Import alignments and create constrained alignment tree
+        run file glue/build/extension/primate/hivRootAlignment.glue
 
-		# Add extension set sequences constrained alignment tree
-		run file glue/build/extension/primate/alignmentTreePrimate.glue
-	
-		# Record feature presence
-		run file glue/build/extension/primate/recordFeaturePresencePrimate.glue
+        # Add extension set sequences constrained alignment tree
+        run file glue/build/extension/primate/alignmentTreePrimate.glue
 
-		# Validate
-		validate
+        # Record feature presence
+        run file glue/build/extension/primate/recordFeaturePresencePrimate.glue
 
-		exit
+        # Validate
+        validate
+
+        exit
 

@@ -1,9 +1,0 @@
-delete module --whereClause "name like 'hivCrna%'"
-
-delete module hivCalculateEntropy
-
-delete module hivCalculateEntropyAA
-
-delete module hivHypermutation
-
-delete module hivCalculateCodonChanges
