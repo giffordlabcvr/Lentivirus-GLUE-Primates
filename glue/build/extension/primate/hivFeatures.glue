@@ -1,56 +1,6 @@
 
-  # Non-coding features
-
-  create feature TSS -p whole_genome "Transcription start site"
-  feature TSS set field displayName "Transcription start site"
-  feature TSS set metatag INCLUDE_IN_SUMMARY true
-
-  create feature SL3 -p whole_genome "stem loop 3"
-  feature SL3 set field displayName "SL3"
-  feature SL3 set metatag INCLUDE_IN_SUMMARY true
-
-  create feature SL4 -p whole_genome "stem loop 4"
-  feature SL4 set field displayName "SL4"
-  feature SL4 set metatag INCLUDE_IN_SUMMARY true
-
-  create feature DIS -p whole_genome "Dimerisation initiation site"
-  feature DIS set field displayName "DIS"
-  feature DIS set metatag INCLUDE_IN_SUMMARY true
-
-  create feature SD -p whole_genome "Splice donor region"
-  feature SD set field displayName "SD"
-  feature SD set metatag INCLUDE_IN_SUMMARY true
-
-  create feature PSI -p whole_genome "Packaging signal"
-  feature PSI set field displayName "PSI"
-  feature PSI set metatag INCLUDE_IN_SUMMARY true
-
-  create feature PPT -p whole_genome "Polypurine tract"
-  feature PPT set field displayName "PPT"
-  feature PPT set metatag INCLUDE_IN_SUMMARY true
-
-  create feature 3TSS -p 3LTR "3' Transcription start site"
-  feature 3TSS set field displayName "3' Transcription start site"
-  feature 3TSS set metatag INCLUDE_IN_SUMMARY true
 
   # HIV-1 Detailed annotation - additional coding features
-  create feature p2 -p gag "p2"
-  feature p2 set field displayName "p2"
-  feature p2 set metatag OWN_CODON_NUMBERING true
-  feature p2 set metatag INCLUDE_IN_SUMMARY true
-  feature p2 set metatag CODES_AMINO_ACIDS true
-
-  create feature p1 -p gag "p1"
-  feature p1 set field displayName "p1"
-  feature p1 set metatag OWN_CODON_NUMBERING true
-  feature p1 set metatag INCLUDE_IN_SUMMARY true
-  feature p1 set metatag CODES_AMINO_ACIDS true
-  
-  create feature p6 -p gag "p6"
-  feature p6 set field displayName "p6"
-  feature p6 set metatag OWN_CODON_NUMBERING true
-  feature p6 set metatag INCLUDE_IN_SUMMARY true
-  feature p6 set metatag CODES_AMINO_ACIDS true
 
   create feature V1 -p env "V1"
   feature V1 set field displayName "V1"
@@ -81,12 +31,6 @@
   feature V5 set metatag OWN_CODON_NUMBERING true
   feature V5 set metatag INCLUDE_IN_SUMMARY true
   feature V5 set metatag CODES_AMINO_ACIDS true 
-
-  create feature nef -p whole_genome "nef"
-  feature nef set field displayName "nef"
-  feature nef set metatag OWN_CODON_NUMBERING true
-  feature nef set metatag INCLUDE_IN_SUMMARY true
-  feature nef set metatag CODES_AMINO_ACIDS true
 
   create feature asp -p whole_genome "asp"
   feature asp set field displayName "asp"
