@@ -1,6 +1,7 @@
 
   # Import reference sequences from GenBank XML files 
   import source sources/virus/extension/primate/ncbi-refseqs-hiv-1/
+  import source sources/virus/extension/primate/ncbi-refseqs-siv/
 
   # Hominid lentivirus curated sets
   import source sources/virus/extension/primate/ncbi-curated-primate-group-n/
@@ -16,7 +17,4 @@
   import source sources/virus/extension/primate/ncbi-curated-primate-subtype-g/
   import source sources/virus/extension/primate/ncbi-curated-primate-crf01/
   import source sources/virus/extension/primate/ncbi-curated-primate-crf02/
-
-  # Outside HIV-1
-  #import source sources/virus/extension/primate/ncbi-curated-primate-simian
 

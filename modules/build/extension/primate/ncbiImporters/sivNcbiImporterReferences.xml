@@ -1,0 +1,27 @@
+<ncbiImporter>
+
+  <sourceName>ncbi-refseqs-siv</sourceName>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <specificPrimaryAccessions>
+
+	<!-- HIV-2 -->
+    <primaryAccession>MK686247</primaryAccession>
+
+    <!-- SIVs -->
+    <primaryAccession>HM803689</primaryAccession>
+	<primaryAccession>M27470</primaryAccession>
+	<primaryAccession>AY159321</primaryAccession>
+	<primaryAccession>X14307</primaryAccession>
+	<primaryAccession>AF188116</primaryAccession>
+    <primaryAccession>MK686247</primaryAccession>
+    <primaryAccession>AF131870</primaryAccession>
+    <primaryAccession>L06042</primaryAccession>
+    <primaryAccession>AF468659</primaryAccession>
+    <primaryAccession>AJ580407</primaryAccession>
+    <primaryAccession>AF301156</primaryAccession>
+
+  </specificPrimaryAccessions>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+  
+</ncbiImporter>
