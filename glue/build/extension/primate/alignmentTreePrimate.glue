@@ -16,23 +16,23 @@ delete alignment AL_HIV-1M_crf02
 alignment AL_ROOT
 
   add member -w "source.name = 'ncbi-refseqs-hiv-1'" 
-  add member -w "source.name = 'ncbi-curated-primate'"
-  add member -w "source.name = 'ncbi-curated-subtype-a'"
-  add member -w "source.name = 'ncbi-curated-subtype-b'"
-  add member -w "source.name = 'ncbi-curated-subtype-c'"
-  add member -w "source.name = 'ncbi-curated-subtype-d'"
-  add member -w "source.name = 'ncbi-curated-subtype-f1'"
-  add member -w "source.name = 'ncbi-curated-subtype-g'"
-  add member -w "source.name = 'ncbi-curated-crf01'"
-  add member -w "source.name = 'ncbi-curated-crf02'"
-  add member -w "source.name = 'ncbi-curated-group-n'"
-  add member -w "source.name = 'ncbi-curated-group-o'"
-  add member -w "source.name = 'ncbi-curated-group-p'"
+  add member -w "source.name = 'ncbi-curated-primate-primate'"
+  add member -w "source.name = 'ncbi-curated-primate-subtype-a'"
+  add member -w "source.name = 'ncbi-curated-primate-subtype-b'"
+  add member -w "source.name = 'ncbi-curated-primate-subtype-c'"
+  add member -w "source.name = 'ncbi-curated-primate-subtype-d'"
+  add member -w "source.name = 'ncbi-curated-primate-subtype-f1'"
+  add member -w "source.name = 'ncbi-curated-primate-subtype-g'"
+  add member -w "source.name = 'ncbi-curated-primate-crf01'"
+  add member -w "source.name = 'ncbi-curated-primate-crf02'"
+  add member -w "source.name = 'ncbi-curated-primate-group-n'"
+  add member -w "source.name = 'ncbi-curated-primate-group-o'"
+  add member -w "source.name = 'ncbi-curated-primate-group-p'"
   
   demote member AL_Primate -w "sequence.source.name = 'ncbi-refseqs-hiv-1'"
-  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-subtype%'"
-  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-crf%'"
-  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-group%'"
+  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-primate-subtype%'"
+  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-primate-crf%'"
+  demote member AL_Primate -w "sequence.source.name like 'ncbi-curated-primate-group%'"
 
   exit
 
