@@ -8,6 +8,7 @@
     create module -f modules/build/extension/primate/genbankXmlPopulatorPrimate.xml
 	module genbankXmlPopulatorPrimate populate -w "source.name like '%-primate-%'"
     module genbankXmlPopulatorPrimate populate -w "source.name = 'ncbi-refseqs-hiv-1'"
+    module genbankXmlPopulatorPrimate populate -w "source.name = 'ncbi-refseqs-siv'"
 
 	# Import metadata for exogenous reference sequences from tabular
 	create module -f modules/build/extension/primate/sideDataImporterPrimate.xml primateSideDataImporter
