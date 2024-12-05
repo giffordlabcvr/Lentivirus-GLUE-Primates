@@ -57,7 +57,7 @@ alignment AL_Primate
   # Extract SIV gsn/mon
   extract child AL_SIVgsn   --refName REF_SIVgsn_AF468659
   demote member AL_SIVgsn   --whereClause "sequence.species = 'SIVgsn'"
-  demote member AL_SIVmon   --whereClause "sequence.species = 'SIVmon'"
+  demote member AL_SIVgsn   --whereClause "sequence.species = 'SIVmon'"
 
   # Extract SIV col
   extract child AL_SIVcol   --refName REF_SIVcol_AF301156

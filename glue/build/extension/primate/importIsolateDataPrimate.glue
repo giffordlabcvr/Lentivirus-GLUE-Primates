@@ -14,5 +14,7 @@
 	create module -f modules/build/extension/primate/sideDataImporterPrimate.xml primateSideDataImporter
 	module primateSideDataImporter 
 	  populate -f tabular/extension/primate/hiv-reference-data.tsv
+      populate -f tabular/extension/primate/siv-reference-data.tsv
+
       exit
     
