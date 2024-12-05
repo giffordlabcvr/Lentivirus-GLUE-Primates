@@ -10,8 +10,8 @@ var sequenceConfigs = [
     { sourceName: 'ncbi-curated-primate-crf02', clade: 'M', subtype: 'CRF02' },
     { sourceName: 'ncbi-curated-primate-group-n', clade: 'N', subtype: 'NULL' },
     { sourceName: 'ncbi-curated-primate-group-o', clade: 'O', subtype: 'NULL' },
-    { sourceName: 'ncbi-curated-primate-group-p', clade: 'P', subtype: 'NULL' }
-    { sourceName: 'ncbi-curated-primate-siv-cpz', clade: 'NULL', subtype: 'NULL' }
+    { sourceName: 'ncbi-curated-primate-group-p', clade: 'P', subtype: 'NULL' },
+    { sourceName: 'ncbi-curated-primate-siv-cpz', clade: 'NULL', subtype: 'NULL' },
     { sourceName: 'ncbi-curated-primate-group-p', clade: 'NULL', subtype: 'NULL' }
 
 ];
