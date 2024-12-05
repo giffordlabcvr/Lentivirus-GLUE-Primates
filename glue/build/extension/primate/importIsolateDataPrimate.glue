@@ -2,7 +2,6 @@
 	# Link sequences to isolate data table and set some sequence table fields
 	run script glue/build/extension/primate/linkIsolateExtensionRefseqsPrimate.js
 	run script glue/build/extension/primate/linkIsolateCuratedHiv1.js
-	#run script glue/build/extension/primate/linkIsolateCuratedAllOtherSivs.js
 	
 	# Extract data from the XML files
     delete module genbankXmlPopulatorPrimate
