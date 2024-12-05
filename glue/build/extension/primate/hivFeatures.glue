@@ -30,11 +30,4 @@
   feature V5 set field displayName "V5"
   feature V5 set metatag OWN_CODON_NUMBERING true
   feature V5 set metatag INCLUDE_IN_SUMMARY true
-  feature V5 set metatag CODES_AMINO_ACIDS true 
-
-  create feature asp -p whole_genome "asp"
-  feature asp set field displayName "asp"
-  feature asp set metatag OWN_CODON_NUMBERING true
-  feature asp set metatag INCLUDE_IN_SUMMARY true
-  feature asp set metatag CODES_AMINO_ACIDS true
-
+  feature V5 set metatag CODES_AMINO_ACIDS true

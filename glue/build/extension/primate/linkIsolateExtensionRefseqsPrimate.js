@@ -19,8 +19,10 @@ _.each(seqIds, function(seqId) {
 	glue.inMode("sequence/ncbi-refseqs-hiv-1/"+seqId, function() {
 		
         glue.command(["set", "field", "species", 'HIV-1']);
-        glue.command(["set", "field", "subgenus", 'hiv-1']);
+        glue.command(["set", "field", "subgenus", 'Similentivirus']);
 		
 	});
 
 });
+
+
