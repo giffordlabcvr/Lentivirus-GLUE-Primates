@@ -12,7 +12,7 @@ var sequenceConfigs = [
     { sourceName: 'ncbi-curated-primate-group-o', clade: 'O', subtype: 'NULL' },
     { sourceName: 'ncbi-curated-primate-group-p', clade: 'P', subtype: 'NULL' },
     { sourceName: 'ncbi-curated-primate-siv-cpz', clade: 'NULL', subtype: 'NULL' },
-    { sourceName: 'ncbi-curated-primate-group-p', clade: 'NULL', subtype: 'NULL' }
+    { sourceName: 'ncbi-curated-primate-siv-gor', clade: 'NULL', subtype: 'NULL' }
 
 ];
 
