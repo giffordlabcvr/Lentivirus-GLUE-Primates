@@ -1,0 +1,12 @@
+sequenceID	species	genotype	group	subtype	Isolate	year	country	host	host_common_name	pubmedID
+AF131870	SIVsun	-	-	-	SIVsun	-	-	Cercopithecus solatus	-	10438863
+AF188116	SIVlhoest	-	-	-	SIVlhoest524	-	-	Cercopithecus lhoesti	-	10729165
+AF301156	SIVcol	-	-	-	SIVcolCGU1	-	-	Colobus guereza	-	11134299
+AF468659	SIVgsn	-	-	-	SIVgsn-99CM166	-	-	Cercopithecus nictitans	-	12134035
+AJ580407	SIVmon	-	-	-	-	-	-	Cercopithecus mona subsp. denti	-	15956597
+AY159321	SIVdrl	-	-	-	SIVdrl1FAO	-	-	Mandrillus leucophaeus	-	12663793
+HM803689	SIVrcm	-	-	-	SIVrcm	2002	-	Cercocebus torquatus torquatus (red capped mangabey)	-	20797968
+L06042	SIVsyk	-	-	-	syk173/1.2	-	-	-	-	8382307
+M27470	SIVmnd	-	-	-	GB1	-	-	Mandrillus sphinx	-	2797181
+MK686247		-	-	-	-					
+X14307	SIVsm	-	-	-	isolate F236	-	-	Cercocebus atys	-	
