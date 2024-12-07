@@ -1,7 +1,0 @@
-  create module --fileName modules/hivCalculateEntropy.xml --loadResources 
-  
-  create module --fileName modules/hivCalculateEntropyAA.xml --loadResources
-  
-  create module --fileName modules/hivHypermutation.xml --loadResources
-  
-  create module --fileName modules/hivCalculateCodonChanges.xml --loadResources
