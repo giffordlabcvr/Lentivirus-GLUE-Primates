@@ -1,124 +1,185 @@
-# Delete any previously created alignments of same name
-delete alignment AL_HIV-1N
-delete alignment AL_HIV-1O
-delete alignment AL_HIV-1P
-delete alignment AL_HIV-1M
-delete alignment AL_HIV-1M_A
-delete alignment AL_HIV-1M_B
-delete alignment AL_HIV-1M_C
-delete alignment AL_HIV-1M_D
-delete alignment AL_HIV-1M_F
-delete alignment AL_HIV-1M_G
-delete alignment AL_HIV-1M_crf01
-delete alignment AL_HIV-1M_crf02
+	# Delete any previously created alignments of same name
+	delete alignment AL_HIV1N
+	delete alignment AL_HIV1O
+	delete alignment AL_HIV1P
+	delete alignment AL_HIV1M
+	delete alignment AL_HIV1M_A
+	delete alignment AL_HIV1M_B
+	delete alignment AL_HIV1M_C
+	delete alignment AL_HIV1M_D
+	delete alignment AL_HIV1M_F
+	delete alignment AL_HIV1M_G
+	delete alignment AL_HIV1M_crf01
+	delete alignment AL_HIV1M_crf02
 
-# Create constrained alignment tree for curated sequence alignments
-alignment AL_ROOT
+	# Create constrained alignment tree for curated sequence alignments
+	alignment AL_ROOT
 
-  add member -w "source.name = 'ncbi-refseqs-hiv-1'" 
-  add member -w "source.name = 'ncbi-refseqs-siv'"
-  add member -w "source.name like '%-primate-%'"
-  
-  demote member AL_Primate -w "sequence.source.name = 'ncbi-refseqs-hiv-1'"
-  demote member AL_Primate -w "sequence.source.name = 'ncbi-refseqs-siv'"
-  demote member AL_Primate -w "sequence.source.name like '%-primate-%'"
+		add member -w "source.name = 'ncbi-refseqs-hiv-1'" 
+		add member -w "source.name = 'ncbi-refseqs-siv'"
+		add member -w "source.name like '%-primate-%'"
 
-  exit
+		demote member AL_Primate -w "sequence.source.name = 'ncbi-refseqs-hiv-1'"
+		demote member AL_Primate -w "sequence.source.name = 'ncbi-refseqs-siv'"
+		demote member AL_Primate -w "sequence.source.name like '%-primate-%'"
 
-
-# Primate
-alignment AL_Primate
-
-  # Extract Hominid group
-  extract child AL_HIV1   --refName REF_HIV_1M
-  demote member AL_HIV1   --whereClause "sequence.species = 'HIV-1'"
-
-  # Extract HIV-2 clade
-  extract child AL_HIV2     --refName REF_HIV_2A
-  demote member AL_HIV2     --whereClause "sequence.species = 'HIV-2'"
-
-  # Extract red-capped monkey clade
-  extract child AL_SIVrcm   --refName REF_SIVrcm_HM803689
-  demote member AL_SIVrcm   --whereClause "sequence.species = 'SIVrcm'"
-
-  # Extract mandrill clade
-  extract child AL_SIVdrill --refName REF_SIVmnd_M27470
-  demote member AL_SIVdrill --whereClause "sequence.species = 'SIVmnd'"
-
-  # Extract SIV sun SIV l'hoest
-  extract child AL_SIVsun   --refName REF_SIVsun_AF131870
-  demote member AL_SIVsun   --whereClause "sequence.species = 'SIVlhoest'"
-  demote member AL_SIVsun   --whereClause "sequence.species = 'SIVsun'"
-
-  # Extract SIV syk
-  extract child AL_SIVsyk   --refName REF_SIVsyk_L06042
-  demote member AL_SIVsyk   --whereClause "sequence.species = 'HIV-1'"
-
-  # Extract SIV gsn/mon
-  extract child AL_SIVgsn   --refName REF_SIVgsn_AF468659
-  demote member AL_SIVgsn   --whereClause "sequence.species = 'SIVgsn'"
-  demote member AL_SIVgsn   --whereClause "sequence.species = 'SIVmon'"
-
-  # Extract SIV col
-  extract child AL_SIVcol   --refName REF_SIVcol_AF301156
-  demote member AL_SIVcol   --whereClause "sequence.species = 'SIVcol'"
-
-  exit
+		exit
 
 
-# Hominid
-alignment AL_HIV1
+	# Primate lentiviruses
 
-  # Extract group M master reference
-  extract child AL_HIV-1M   --refName REF_HIV_1M
-  demote member AL_HIV-1M   --whereClause "sequence.clade = 'M'"
+	alignment AL_Primate
 
-  # Extract group N master reference
-  extract child AL_HIV-1N   --refName REF_HIV-1N_AJ006022
-  demote member AL_HIV-1N   --whereClause "sequence.clade = 'N'"
+		set field displayName "Primate lentiviruses"
+		set field clade_category subgenus
 
-  # Extract group O master reference
-  extract child AL_HIV-1O   --refName REF_HIV-1O_KU168292
-  demote member AL_HIV-1O   --whereClause "sequence.clade = 'O'"
+		# Extract Hominid group
+		extract child AL_HIV1   --refName REF_HIV_1M
+		demote member AL_HIV1   --whereClause "sequence.species = 'HIV-1'"
 
-  # Extract group P master reference
-  extract child AL_HIV-1P   --refName REF_HIV-1P_GU111555
-  demote member AL_HIV-1P   --whereClause "sequence.clade = 'P'"
+		# Extract HIV-2 clade
+		extract child AL_HIV2     --refName REF_HIV_2A
+		demote member AL_HIV2     --whereClause "sequence.species = 'HIV-2'"
 
+		# Extract red-capped monkey clade
+		extract child AL_SIVrcm   --refName REF_SIVrcm_HM803689
+		demote member AL_SIVrcm   --whereClause "sequence.species = 'SIVrcm'"
 
-  exit
+		# Extract mandrill clade
+		extract child AL_SIVdrill --refName REF_SIVmnd_M27470
+		demote member AL_SIVdrill --whereClause "sequence.species = 'SIVmnd'"
 
+		# Extract SIV sun SIV l'hoest
+		extract child AL_SIVsun   --refName REF_SIVsun_AF131870
+		demote member AL_SIVsun   --whereClause "sequence.species = 'SIVlhoest'"
+		demote member AL_SIVsun   --whereClause "sequence.species = 'SIVsun'"
 
+		# Extract SIV syk
+		extract child AL_SIVsyk   --refName REF_SIVsyk_L06042
+		demote member AL_SIVsyk   --whereClause "sequence.species = 'HIV-1'"
 
-alignment AL_HIV-1M
+		# Extract SIV gsn/mon
+		extract child AL_SIVgsn   --refName REF_SIVgsn_AF468659
+		demote member AL_SIVgsn   --whereClause "sequence.species = 'SIVgsn'"
+		demote member AL_SIVgsn   --whereClause "sequence.species = 'SIVmon'"
 
-  set field displayName "Human immunodeficiency virus (HIV-1) Group M"
+		# Extract SIV col
+		extract child AL_SIVcol   --refName REF_SIVcol_AF301156
+		demote member AL_SIVcol   --whereClause "sequence.species = 'SIVcol'"
 
-  # Extract group M subtypes
-  extract child AL_HIV-1M_A     --refName REF_HIV-1M_A1_KU749402
-  demote member AL_HIV-1M_A     --whereClause "sequence.subtype like 'A%'"
-
-  extract child AL_HIV-1M_B     --refName REF_HIV_1M
-  demote member AL_HIV-1M_B     --whereClause "sequence.subtype = 'B'" 
-
-  extract child AL_HIV-1M_C     --refName REF_HIV-1M_C_JN188292
-  demote member AL_HIV-1M_C     --whereClause "sequence.subtype = 'C'" 
-
-  extract child AL_HIV-1M_D     --refName REF_HIV-1M_D_AB485648
-  demote member AL_HIV-1M_D     --whereClause "sequence.subtype = 'D'" 
-
-  extract child AL_HIV-1M_F     --refName REF_HIV-1M_F1_KU168275
-  demote member AL_HIV-1M_F     --whereClause "sequence.subtype like 'F%'"
-
-  extract child AL_HIV-1M_G     --refName REF_HIV-1M_G_KU168300
-  demote member AL_HIV-1M_G     --whereClause "sequence.subtype = 'G'" 
-
-  extract child AL_HIV-1M_crf01  --refName REF_HIV-1M_CRF01_EF036536
-  demote member AL_HIV-1M_crf01  --whereClause "sequence.subtype = 'CRF01_AE'" 
-
-  extract child AL_HIV-1M_crf02  --refName REF_HIV-1M_CRF02_AB049811
-  demote member AL_HIV-1M_crf02  --whereClause "sequence.subtype = 'CRF02_AG'" 
-
-  exit
+		exit
 
 
+	# Hominid lentiviruses
+
+	alignment AL_HIV1
+
+		set field displayName "Hominid lentiviruses"
+		set field clade_category genotype
+
+		# Extract group M master reference
+		extract child AL_HIV1M   --refName REF_HIV_1M
+		demote member AL_HIV1M   --whereClause "sequence.clade = 'M'"
+
+		# Extract group N master reference
+		extract child AL_HIV1N   --refName REF_HIV-1N_AJ006022
+		demote member AL_HIV1N   --whereClause "sequence.clade = 'N'"
+
+		# Extract group O master reference
+		extract child AL_HIV1O   --refName REF_HIV-1O_KU168292
+		demote member AL_HIV1O   --whereClause "sequence.clade = 'O'"
+
+		# Extract group P master reference
+		extract child AL_HIV1P   --refName REF_HIV-1P_GU111555
+		demote member AL_HIV1P   --whereClause "sequence.clade = 'P'"
+
+		exit
+
+
+	alignment AL_HIV1M
+
+		set field displayName "M"
+		set field clade_category clade
+
+		# Extract group M subtypes
+		extract child AL_HIV1M_A     --refName REF_HIV-1M_A1_KU749402
+		demote member AL_HIV1M_A     --whereClause "sequence.subtype like 'A%'"
+
+		extract child AL_HIV1M_B     --refName REF_HIV_1M
+		demote member AL_HIV1M_B     --whereClause "sequence.subtype = 'B'" 
+
+		extract child AL_HIV1M_C     --refName REF_HIV-1M_C_JN188292
+		demote member AL_HIV1M_C     --whereClause "sequence.subtype = 'C'" 
+
+		extract child AL_HIV1M_D     --refName REF_HIV-1M_D_AB485648
+		demote member AL_HIV1M_D     --whereClause "sequence.subtype = 'D'" 
+
+		extract child AL_HIV1M_F     --refName REF_HIV-1M_F1_KU168275
+		demote member AL_HIV1M_F     --whereClause "sequence.subtype like 'F%'"
+
+		extract child AL_HIV1M_G     --refName REF_HIV-1M_G_KU168300
+		demote member AL_HIV1M_G     --whereClause "sequence.subtype = 'G'" 
+
+		extract child AL_HIV1M_crf01  --refName REF_HIV-1M_CRF01_EF036536
+		demote member AL_HIV1M_crf01  --whereClause "sequence.subtype = 'CRF01_AE'" 
+
+		extract child AL_HIV1M_crf02  --refName REF_HIV-1M_CRF02_AB049811
+		demote member AL_HIV1M_crf02  --whereClause "sequence.subtype = 'CRF02_AG'" 
+
+		exit
+
+
+	alignment AL_HIV1N
+		set field displayName "N"
+		set field clade_category clade
+		exit
+
+	alignment AL_HIV1O
+		set field displayName "O"
+		set field clade_category clade
+		exit
+	
+	alignment AL_HIV1P
+		set field displayName "P"
+		set field clade_category clade
+		exit
+
+	alignment AL_HIV1M_A
+		set field displayName "A"
+		set field clade_category subtype
+		exit
+
+	alignment AL_HIV1M_B
+		set field displayName "B"
+		set field clade_category subtype
+		exit
+
+	alignment AL_HIV1M_C
+		set field displayName "C"
+		set field clade_category subtype
+		exit
+
+	alignment AL_HIV1M_D
+		set field displayName "D"
+		set field clade_category subtype
+		exit
+
+	alignment AL_HIV1M_F
+		set field displayName "F"
+		set field clade_category subtype
+		exit
+
+	alignment AL_HIV1M_G
+		set field displayName "G"
+		set field clade_category subtype
+		exit
+
+	alignment AL_HIV1M_crf01
+		set field displayName "CRF01"
+		set field clade_category subtype
+		exit
+
+	alignment AL_HIV1M_crf02
+		set field displayName "CRF02"
+		set field clade_category subtype
+		exit
