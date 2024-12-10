@@ -1,16 +1,16 @@
 
 # Compute full genome alignments 
-compute alignment AL_HIV-1M_A hivCompoundAligner
-compute alignment AL_HIV-1M_B hivCompoundAligner 
-compute alignment AL_HIV-1M_C hivCompoundAligner
-compute alignment AL_HIV-1M_D hivCompoundAligner  
-compute alignment AL_HIV-1M_F hivCompoundAligner 
-compute alignment AL_HIV-1M_G hivCompoundAligner 
+compute alignment AL_HIV1M_A hivCompoundAligner
+compute alignment AL_HIV1M_B hivCompoundAligner 
+compute alignment AL_HIV1M_C hivCompoundAligner
+compute alignment AL_HIV1M_D hivCompoundAligner  
+compute alignment AL_HIV1M_F hivCompoundAligner 
+compute alignment AL_HIV1M_G hivCompoundAligner 
 
-compute alignment AL_HIV-1M_crf01 hivCompoundAligner 
-compute alignment AL_HIV-1M_crf02 hivCompoundAligner
+compute alignment AL_HIV1M_crf01 hivCompoundAligner 
+compute alignment AL_HIV1M_crf02 hivCompoundAligner
 
-compute alignment AL_HIV-1O hivCompoundAligner 
-compute alignment AL_HIV-1P hivCompoundAligner
-compute alignment AL_HIV-1N hivCompoundAligner 
+compute alignment AL_HIV1O hivCompoundAligner 
+compute alignment AL_HIV1P hivCompoundAligner
+compute alignment AL_HIV1N hivCompoundAligner 
 
